@@ -33,39 +33,39 @@
   },
   "datatable": {
     "language": {
-      "decimal": "десятичный",
+      "decimal": "",
       "emptyTable": "В таблице нет данных",
-      "info": "Показано с _START_ по _END_ из _TOTAL_ записей",
-      "infoEmpty": "Показано с 0 по 0 из 0 записей",
+      "info": "Показаны записи с _START_ по _END_ из _TOTAL_",
+      "infoEmpty": "Показаны записи с 0 по 0 из 0",
       "infoFiltered": "(отфильтровано из _MAX_ записей)",
       "infoPostFix": "",
-      "thousands": ",",
-      "lengthMenu": "Показывать по _MENU_ записей",
-      "loadingRecords": "Загружается...",
-      "processing": "Обрабатывается...",
+      "thousands": " ",
+      "lengthMenu": "Показывать _MENU_ записей",
+      "loadingRecords": "Загрузка...",
+      "processing": "Обработка...",
       "search": "Фильтр:",
       "searchPlaceholder": "Поиск...",
-      "zeroRecords": "Подходящие записи не найдены",
+      "zeroRecords": "Совпадающие записи не найдены",
       "all": "Все",
       "paginate": {
         "first": "Первая",
         "last": "Последняя",
-        "next": "Дальше",
-        "previous": "Назад"
+        "next": "Следующая",
+        "previous": "Предыдущая"
       },
       "buttons": {
-        "colvis": "Отображать колонки",
+        "colvis": "Показать столбцы",
         "copy": "Копировать",
-        "resetColumns": "Сбросить колонки",
-        "showAllColumns": "Показать все колонки",
-        "changeColumns": "Изменить колонки"
+        "resetColumns": "Сбросить столбцы",
+        "showAllColumns": "Показать все столбцы",
+        "changeColumns": "Изменить столбцы"
       },
       "aria": {
-        "sortAscending": ": нажмите для сортировки по возрастанию",
-        "sortDescending": ": нажмите для сортировки по убыванию"
+        "sortAscending": ": активируйте для сортировки столбца по возрастанию",
+        "sortDescending": ": активируйте для сортировки столбца по убыванию"
       }
     },
-    "itemsPerPage": "Rows per page:"
+    "itemsPerPage": "Строк на странице:"
   },
   "format": {
     "number": "# ###,##",
@@ -274,28 +274,28 @@
     "required": "Это поле обязательно для заполнения"
   },
   "commonErrors": {
-    "noSources": "В текущем WebAPI не определено ни одного источника.<br/>Пожалуйста, добавьте источники на странице <a href=\"#/configure\">конфигурации</a>.",
-    "webapiConnectError": "Ошибка соединения с WebAPI.<br/>Чтобы решить эту проблему, пожалуйста, свяжитесь с администратором.",
-    "browserWarning": "Пожалуйста, обратите внимание, что официально поддерживается только браузер Chrome версии не ниже v.63",
-    "initFailed": "Ошибка инициализации приложения",
-    "required": "This field is required",
-    "nameRequired": "Name is required",
-    "lengthValidation": "Name must be between 1 and 255 characters",
-    "invalid": "Invalid",
-    "valid": "Valid",
-    "unexpectedError": "An unexpected error occurred. This has been logged for investigation.",
-    "errorDetails": "Error Details"
+    "noSources": "В текущем WebAPI не определено ни одного источника данных.<br/>Добавьте один или несколько источников на странице <a href=\"#/configure\">конфигурации</a>.",
+    "webapiConnectError": "Не удалось подключиться к экземпляру WebAPI.<br/>Обратитесь к администратору, чтобы устранить эту проблему.",
+    "browserWarning": "Обратите внимание: официально поддерживается только браузер Chrome версии выше 63",
+    "initFailed": "Не удалось инициализировать приложение",
+    "required": "Это поле обязательно для заполнения",
+    "nameRequired": "Необходимо указать название",
+    "lengthValidation": "Название должно содержать от 1 до 255 символов",
+    "invalid": "Недействительно",
+    "valid": "Действительно",
+    "unexpectedError": "Произошла непредвиденная ошибка. Она записана в журнал для дальнейшего анализа.",
+    "errorDetails": "Сведения об ошибке"
   },
   "navigation": {
     "characterizations": "Характеризации",
-    "cohortdefinitions": "Когорты",
+    "cohortdefinitions": "Определения когорт",
     "conceptsets": "Наборы концептов",
-    "configuration": "Конфигурация",
+    "configuration": "Настройки",
     "datasources": "Источники данных",
-    "estimation": "Оценочный анализ",
+    "estimation": "Оценка эффекта",
     "featureAnalyses": "Анализы признаков",
     "feedback": "Обратная связь",
-    "home": "Начало",
+    "home": "Главная",
     "incidencerate": "Заболеваемость",
     "incidenceRates": "Уровень заболеваемости",
     "jobs": "Задания",
@@ -303,9 +303,9 @@
     "prediction": "Прогнозирование",
     "profiles": "Профили",
     "search": "Поиск",
-    "tagging": "Теггинг",
+    "tagging": "Теги",
     "docs": "Документация",
-    "analysis": "Analysis"
+    "analysis": "Анализ"
   },
   "route": {
     "home": {
