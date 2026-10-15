@@ -75,18 +75,18 @@
       "datetime": "DD.MM.YYYY HH:mm",
       "datetimeWithSeconds": "DD.MM.YYYY HH:mm:ss",
       "minutes": "мин",
-      "seconds": "сек"
+      "seconds": "с"
     }
   },
   "executionStatus": {
     "values": {
       "FAILED": "ОШИБКА",
-      "COMPLETED": "ГОТОВ",
-      "STOPPED": "ОСТАНОВЛЕН",
-      "CANCELED": "ОТМЕНЕН",
+      "COMPLETED": "ЗАВЕРШЕНО",
+      "STOPPED": "ОСТАНОВЛЕНО",
+      "CANCELED": "ОТМЕНЕНО",
       "PENDING": "В ОЧЕРЕДИ",
       "RUNNING": "ВЫПОЛНЯЕТСЯ",
-      "STARTED": "ЗАПУСКАЕТСЯ"
+      "STARTED": "ЗАПУЩЕНО"
     }
   },
   "common": {
@@ -309,43 +309,43 @@
   },
   "route": {
     "home": {
-      "title": "Home"
+      "title": "Главная"
     },
     "cohorts": {
-      "title": "Cohorts"
+      "title": "Когорты"
     },
     "cohortBuilder": {
-      "title": "Cohort Builder"
+      "title": "Конструктор когорт"
     },
     "conceptSets": {
-      "title": "Concept Sets"
+      "title": "Наборы концептов"
     },
     "profiles": {
-      "title": "Profiles"
+      "title": "Профили"
     },
     "analysis": {
-      "title": "Analysis"
+      "title": "Анализ"
     },
     "characterizations": {
-      "title": "Characterizations"
+      "title": "Характеризации"
     },
     "featureAnalyses": {
-      "title": "Feature Analyses"
+      "title": "Анализы признаков"
     },
     "pathways": {
-      "title": "Cohort Pathways"
+      "title": "Траектории когорт"
     },
     "incidenceRates": {
-      "title": "Incidence Rates"
+      "title": "Уровень заболеваемости"
     },
     "apiKeys": {
-      "title": "API Keys"
+      "title": "Ключи API"
     },
     "dataSources": {
-      "title": "Data Sources"
+      "title": "Источники данных"
     },
     "roleManagement": {
-      "title": "Role Management"
+      "title": "Управление ролями"
     }
   },
   "options": {
