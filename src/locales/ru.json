@@ -2290,213 +2290,213 @@
   },
   "characterizations": {
     "list": {
-      "title": "Characterizations",
-      "newButton": "New Characterization",
-      "searchPlaceholder": "Search characterizations...",
-      "empty": "No characterizations found.",
+      "title": "Характеризации",
+      "newButton": "Новая характеризация",
+      "searchPlaceholder": "Поиск характеризаций…",
+      "empty": "Характеризации не найдены.",
       "columns": {
-        "name": "Name",
-        "description": "Description",
-        "cohorts": "Cohorts",
-        "featureAnalyses": "Feature Analyses",
-        "createdBy": "Created By",
-        "createdDate": "Created",
-        "modifiedDate": "Modified",
-        "actions": "Actions"
+        "name": "Название",
+        "description": "Описание",
+        "cohorts": "Когорты",
+        "featureAnalyses": "Анализы признаков",
+        "createdBy": "Автор",
+        "createdDate": "Создано",
+        "modifiedDate": "Изменено",
+        "actions": "Действия"
       },
       "actions": {
-        "edit": "Edit",
-        "copy": "Copy",
-        "delete": "Delete"
+        "edit": "Редактировать",
+        "copy": "Копировать",
+        "delete": "Удалить"
       },
-      "deleteConfirm": "Delete characterization '{name}'?"
+      "deleteConfirm": "Удалить характеризацию «{name}»?"
     },
     "editor": {
       "tabs": {
-        "design": "Design",
-        "conceptSets": "Concept Sets",
-        "executions": "Executions",
-        "versions": "Versions",
-        "validation": "Validation",
-        "utilities": "Utilities"
+        "design": "Дизайн",
+        "conceptSets": "Наборы концептов",
+        "executions": "Запуски",
+        "versions": "Версии",
+        "validation": "Проверка",
+        "utilities": "Инструменты"
       },
       "title": {
-        "new": "New Characterization",
-        "edit": "Edit Characterization"
+        "new": "Новая характеризация",
+        "edit": "Редактировать характеризацию"
       },
       "metadata": {
-        "name": "Name",
-        "description": "Description",
-        "stratifiedBy": "Stratified by",
-        "strataOnly": "Compute strata only (skip overall)"
+        "name": "Название",
+        "description": "Описание",
+        "stratifiedBy": "Стратифицировать по",
+        "strataOnly": "Только страты (без общего результата)"
       },
       "cohorts": {
-        "title": "Linked Cohorts",
-        "empty": "No cohorts linked.",
-        "add": "Add cohort",
-        "selectDialogTitle": "Select cohorts to link",
-        "remove": "Remove"
+        "title": "Связанные когорты",
+        "empty": "Нет связанных когорт.",
+        "add": "Добавить когорту",
+        "selectDialogTitle": "Выберите когорты для связи",
+        "remove": "Удалить"
       },
       "featureAnalyses": {
-        "title": "Linked Feature Analyses",
-        "empty": "No feature analyses linked.",
-        "add": "Add feature analysis",
-        "selectDialogTitle": "Select feature analyses to link",
-        "includeAnnual": "Annual",
-        "includeTemporal": "Temporal",
-        "annualPending": "Pending FA backend support",
-        "remove": "Remove"
+        "title": "Связанные анализы признаков",
+        "empty": "Нет связанных анализов признаков.",
+        "add": "Добавить анализ признаков",
+        "selectDialogTitle": "Выберите анализы признаков для связи",
+        "includeAnnual": "Годовые",
+        "includeTemporal": "Временные",
+        "annualPending": "Ожидается поддержка со стороны серверной части анализа признаков",
+        "remove": "Удалить"
       },
       "strata": {
-        "title": "Subgroups (Strata)",
-        "empty": "No strata defined.",
-        "add": "Add stratum",
-        "name": "Stratum name",
-        "criteriaLabel": "Criteria (JSON)",
-        "criteriaPlaceholder": "Criteria builder integration ships in a follow-up. For now, paste a CriteriaGroup JSON.",
-        "remove": "Remove",
-        "invalidJson": "Invalid JSON",
-        "eventCount": "1 event",
-        "eventsCount": "{n} events",
-        "noCriteria": "No criteria"
+        "title": "Подгруппы (страты)",
+        "empty": "Страты не заданы.",
+        "add": "Добавить страту",
+        "name": "Название страты",
+        "criteriaLabel": "Критерии (JSON)",
+        "criteriaPlaceholder": "Интеграция конструктора критериев появится в следующем обновлении. Пока вставьте JSON-группы критериев.",
+        "remove": "Удалить",
+        "invalidJson": "Некорректный JSON",
+        "eventCount": "1 событие",
+        "eventsCount": "{n} событий",
+        "noCriteria": "Нет критериев"
       },
       "conceptSetsTab": {
-        "title": "Concept Sets",
-        "placeholder": "Stratum-derived concept sets will appear here once the criteria builder lands.",
-        "empty": "No concept sets."
+        "title": "Наборы концептов",
+        "placeholder": "Наборы концептов, сформированные на основе страт, появятся здесь после добавления конструктора критериев.",
+        "empty": "Нет наборов концептов."
       },
       "actions": {
-        "save": "Save",
-        "saveCopy": "Save as Copy",
-        "delete": "Delete",
-        "back": "Back",
-        "run": "Run",
-        "runDisabled": "Available in Phase 4"
+        "save": "Сохранить",
+        "saveCopy": "Сохранить копию",
+        "delete": "Удалить",
+        "back": "Назад",
+        "run": "Запустить",
+        "runDisabled": "Будет доступно на этапе 4"
       },
-      "deleteConfirm": "Delete characterization '{name}'?",
-      "leaveConfirm": "You have unsaved changes. Leave anyway?",
-      "saveSuccess": "Characterization saved",
-      "saveError": "Failed to save characterization",
-      "nameRequired": "Name is required",
-      "versionsTodo": "Versions integration TODO — wires into characterization-versions.service in a follow-up.",
-      "comingSoon": "Characterization editor coming soon",
-      "back": "Back to list",
+      "deleteConfirm": "Удалить характеризацию «{name}»?",
+      "leaveConfirm": "Есть несохранённые изменения. Всё равно выйти?",
+      "saveSuccess": "Характеризация сохранена",
+      "saveError": "Не удалось сохранить характеризацию",
+      "nameRequired": "Необходимо указать название",
+      "versionsTodo": "Интеграция версий пока не реализована — подключение к characterization-versions.service будет добавлено в дальнейшем.",
+      "comingSoon": "Редактор характеризаций скоро появится",
+      "back": "Вернуться к списку",
       "executions": {
-        "title": "Executions",
-        "tabLabel": "Executions",
-        "runButton": "Run",
-        "runDisabledNoId": "Save the characterization before running.",
-        "runDisabledDirty": "Save your changes before running.",
+        "title": "Запуски",
+        "tabLabel": "Запуски",
+        "runButton": "Запустить",
+        "runDisabledNoId": "Сохраните характеризацию перед запуском.",
+        "runDisabledDirty": "Сохраните изменения перед запуском.",
         "dialog": {
-          "title": "Run characterization",
-          "sourceLabel": "Data source",
-          "sourceRequired": "Select a data source",
-          "run": "Run",
-          "cancel": "Cancel"
+          "title": "Запустить характеризацию",
+          "sourceLabel": "Источник данных",
+          "sourceRequired": "Выберите источник данных",
+          "run": "Запустить",
+          "cancel": "Отмена"
         },
         "row": {
-          "source": "Source",
-          "status": "Status",
-          "startTime": "Started",
-          "duration": "Duration",
-          "actions": "Actions",
-          "cancelAction": "Cancel",
-          "resultsAction": "View results",
-          "cancelConfirm": "Cancel execution on '{source}'?"
+          "source": "Источник",
+          "status": "Статус",
+          "startTime": "Запущено",
+          "duration": "Длительность",
+          "actions": "Действия",
+          "cancelAction": "Отменить",
+          "resultsAction": "Просмотреть результаты",
+          "cancelConfirm": "Отменить запуск для источника «{source}»?"
         },
-        "empty": "No executions yet.",
+        "empty": "Запусков пока нет.",
         "results": {
-          "comingSoon": "Results viewer coming soon",
-          "back": "Back to builder"
+          "comingSoon": "Просмотр результатов скоро появится",
+          "back": "Вернуться к конструктору"
         }
       },
       "validation": {
-        "tabLabel": "Validation",
+        "tabLabel": "Проверка",
         "headers": {
-          "errors": "Errors",
-          "warnings": "Warnings",
-          "infos": "Notes"
+          "errors": "Ошибки",
+          "warnings": "Предупреждения",
+          "infos": "Примечания"
         },
-        "empty": "No issues. Design is valid.",
+        "empty": "Проблем нет. Дизайн корректен.",
         "rules": {
-          "nameRequired": "Name is required.",
-          "cohortsRequired": "At least one cohort must be linked.",
-          "featureAnalysesRequired": "At least one feature analysis must be linked.",
-          "strataNameMissing": "Stratum {n} has no name.",
-          "strataNameDuplicate": "Two or more strata share the name '{name}'.",
-          "strataCriteriaInvalid": "Stratum '{name}' has invalid criteria JSON.",
-          "strataOnlyButNoStrata": "Strata-only is enabled but no strata are defined.",
-          "tooManyFeatureAnalyses": "{count} feature analyses may slow generation."
+          "nameRequired": "Необходимо указать название.",
+          "cohortsRequired": "Необходимо связать хотя бы одну когорту.",
+          "featureAnalysesRequired": "Необходимо связать хотя бы один анализ признаков.",
+          "strataNameMissing": "Для страты {n} не указано название.",
+          "strataNameDuplicate": "Название страты «{name}» используется несколько раз.",
+          "strataCriteriaInvalid": "Критерии страты «{name}» содержат некорректный JSON.",
+          "strataOnlyButNoStrata": "Включён режим «Только страты», но страты не заданы.",
+          "tooManyFeatureAnalyses": "Большое количество анализов признаков ({count}) может замедлить генерацию."
         },
-        "saveBlocked": "Fix validation errors first."
+        "saveBlocked": "Сначала исправьте ошибки проверки."
       },
       "utilities": {
-        "tabLabel": "Utilities",
+        "tabLabel": "Инструменты",
         "export": {
-          "title": "Export design",
-          "description": "Download the design as JSON.",
-          "download": "Download design JSON",
-          "exportError": "Export failed."
+          "title": "Экспортировать дизайн",
+          "description": "Скачать дизайн в формате JSON.",
+          "download": "Скачать дизайн в формате JSON",
+          "exportError": "Не удалось выполнить экспорт."
         },
         "import": {
-          "title": "Import design",
-          "description": "Upload a design JSON file. A new characterization is created.",
-          "fileLabel": "Choose file",
-          "parseError": "Could not parse design JSON.",
-          "importError": "Import failed.",
-          "importSuccess": "Imported successfully."
+          "title": "Импортировать дизайн",
+          "description": "Загрузите файл дизайна JSON. Будет создана новая характеризация.",
+          "fileLabel": "Выбрать файл",
+          "parseError": "Не удалось разобрать JSON дизайна.",
+          "importError": "Не удалось выполнить импорт.",
+          "importSuccess": "Импорт выполнен."
         },
         "diagnostics": {
-          "title": "Diagnostics",
-          "comingSoon": "Backend diagnostics check coming soon."
+          "title": "Диагностика",
+          "comingSoon": "Проверка диагностики на сервере скоро появится."
         }
       }
     },
     "results": {
-      "title": "Results",
-      "loading": "Loading results...",
-      "loadError": "Failed to load results.",
-      "back": "Back to builder",
-      "exportCsv": "Export CSV",
+      "title": "Результаты",
+      "loading": "Загрузка результатов…",
+      "loadError": "Не удалось загрузить результаты.",
+      "back": "Вернуться к конструктору",
+      "exportCsv": "Экспортировать CSV",
       "header": {
-        "source": "Source",
-        "started": "Started",
-        "completed": "Completed",
-        "duration": "Duration",
-        "designHash": "Design Hash",
-        "resultCount": "Total rows",
-        "threshold": "Show covariates with prevalence ≥ {n}%"
+        "source": "Источник",
+        "started": "Начато",
+        "completed": "Завершено",
+        "duration": "Длительность",
+        "designHash": "Хэш дизайна",
+        "resultCount": "Всего строк",
+        "threshold": "Показывать ковариаты с распространённостью ≥ {n}%"
       },
       "filter": {
-        "title": "Filters",
-        "domain": "Domain",
-        "analysis": "Analysis",
-        "cohort": "Cohort",
-        "all": "All"
+        "title": "Фильтры",
+        "domain": "Домен",
+        "analysis": "Анализ",
+        "cohort": "Когорта",
+        "all": "Все"
       },
       "table": {
-        "covariate": "Covariate",
-        "conceptId": "Concept ID",
-        "count": "Count",
+        "covariate": "Ковариата",
+        "conceptId": "ID концепта",
+        "count": "Количество",
         "pct": "%",
         "stdDiff": "Std Diff",
-        "explore": "Explore",
-        "mean": "Mean",
+        "explore": "Изучить",
+        "mean": "Среднее",
         "sd": "SD",
-        "min": "Min",
+        "min": "Минимум",
         "p25": "P25",
-        "median": "Median",
+        "median": "Медиана",
         "p75": "P75",
-        "max": "Max",
-        "empty": "No rows match the current filter.",
-        "distribution": "Distribution",
-        "prevalence": "Prevalence"
+        "max": "Максимум",
+        "empty": "По текущему фильтру строки не найдены.",
+        "distribution": "Распределение",
+        "prevalence": "Распространённость"
       },
       "explore": {
-        "title": "Explore covariate: {name}",
-        "loading": "Loading...",
-        "empty": "No related concepts.",
-        "close": "Close"
+        "title": "Изучить ковариату: {name}",
+        "loading": "Загрузка…",
+        "empty": "Связанные концепты не найдены.",
+        "close": "Закрыть"
       }
     }
   },
