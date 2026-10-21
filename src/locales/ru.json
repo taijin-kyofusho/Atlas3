@@ -2591,39 +2591,39 @@
   },
   "facets": {
     "caption": {
-      "analysisName": "Имя анализа",
+      "analysisName": "Название анализа",
       "author": "Автор",
       "class": "Класс",
-      "comparatorCohorts": "Когорты-компараторы",
+      "comparatorCohorts": "Когорты сравнения",
       "created": "Создано",
       "domain": "Домен",
-      "drugLabelExists": "Предлагаемый отрицательный контроль",
-      "errorMsg": "Ошибка",
-      "foundInProductLabelOrPublications": "Найдено в ярлыке продукта или публикациях",
+      "drugLabelExists": "Рекомендуемый отрицательный контроль",
+      "errorMsg": "Сообщение об ошибке",
+      "foundInProductLabelOrPublications": "Найдено в инструкции к препарату или публикациях",
       "foundInPublications": "Найдено в публикациях",
-      "foundProductLabel": "Найдено на ярлыке продукта",
-      "hasDescendantRecords": "Есть записи-наследники",
+      "foundProductLabel": "Найдено в инструкции к препарату",
+      "hasDescendantRecords": "Есть записи по дочерним концептам",
       "hasRecords": "Есть записи",
-      "invalidReason": "Причина невалидности",
-      "lastModified": "Последняя правка",
-      "mappingType": "Тип отображения",
-      "match": "Соответствие",
+      "invalidReason": "Причина недействительности",
+      "lastModified": "Последнее изменение",
+      "mappingType": "Тип маппинга",
+      "match": "Совпадение",
       "modelName": "Название модели",
-      "outcomeCohorts": "Исходящие когорты",
-      "provider": "Провайдер",
-      "riskWindow": "Окно Риска",
+      "outcomeCohorts": "Когорты исходов",
+      "provider": "Врач",
+      "riskWindow": "Окно риска",
       "signalInFaers": "Сигнал в FAERS",
       "source": "Источник",
-      "standardConcept": "Стандартная концепция",
+      "standardConcept": "Стандартный концепт",
       "startDate": "Дата начала",
       "targetCohorts": "Целевые когорты",
       "type": "Тип",
       "updated": "Обновлено",
-      "userSpecified": "Пользователь указан",
+      "userSpecified": "Задано пользователем",
       "vocabulary": "Словарь",
-      "relationship": "Отношения",
-      "distance": "Дистанция",
-      "severity": "Строгость",
+      "relationship": "Связь",
+      "distance": "Расстояние",
+      "severity": "Степень тяжести",
       "designs": "Дизайны"
     },
     "values": {
@@ -2634,26 +2634,26 @@
     "date": {
       "justNow": "Только что",
       "lastWeek": "На прошлой неделе",
-      "others": "Более 2 недель назад",
+      "others": "Более двух недель назад",
       "thisWeek": "На этой неделе",
-      "within24Hours": "В последние 24 часа"
+      "within24Hours": "За последние 24 часа"
     },
     "match": {
       "both": "Оба",
-      "only1": "Только 1 набор концептов",
-      "only2": "Только 2 набор концептов"
+      "only1": "Только CS1",
+      "only2": "Только CS2"
     },
     "type": {
-      "preset": "Пресет",
+      "preset": "Готовый вариант",
       "criteriaSet": "Набор критериев",
       "custom": "Пользовательский"
     },
     "designs": {
       "myDesigns": "Мои дизайны",
-      "otherDesigns": "Прочие дизайны"
+      "otherDesigns": "Другие дизайны"
     },
     "tags": {
-      "untagged": "Без ярлыка"
+      "untagged": "Без тегов"
     }
   },
   "columns": {
@@ -3053,34 +3053,34 @@
     "pageSubtitle": "Browse CDM data sources and run pre-built reports against them."
   },
   "search": {
-    "addedCountToSet": "Added {count} concepts → {set}",
-    "addedToSet": "Added “{concept}” → {set}",
-    "advancedOptions": "Расширенные параметры поиска",
+    "addedCountToSet": "Добавлено концептов: {count} → {set}",
+    "addedToSet": "Концепт «{concept}» добавлен → {set}",
+    "advancedOptions": "Расширенные параметры",
     "buttonTitle": "Поиск",
     "classification": "Классификация",
-    "filterResults": "Filter results",
-    "clearAllSelections": "Очистить выделение",
+    "filterResults": "Фильтровать результаты",
+    "clearAllSelections": "Снять все выделения",
     "domains": "Домены",
     "headingTitle": "Поиск",
     "loadingMessage": {
       "domains": "домены",
-      "loading": "Загружаются",
+      "loading": "Загрузка",
       "searchResults": "результаты поиска",
       "vocabularies": "словари"
     },
     "noDomainsAvailable": "Нет доступных доменов",
-    "noResultsFoundFor": "Ничего не найдено для",
+    "noResultsFoundFor": "По запросу не найдено результатов:",
     "noVocabulariesAvailable": "Нет доступных словарей",
     "nonStandard": "Нестандартный",
-    "placeholder": "Введите здесь ключевые слова для поиска",
+    "placeholder": "Введите поисковый запрос",
     "standard": "Стандартный",
     "tabs": {
       "import": "Импорт",
       "search": "Поиск"
     },
     "vocabularies": "Словари",
-    "viewCountMessage": "Отображать количество записей (RC, DRC) для:",
-    "vocabulariesInfo": "Type at least 3 characters; press Enter to search across SNOMED, ICD, RxNorm, LOINC, and other vocabularies."
+    "viewCountMessage": "Показать количество записей (RC, DRC) для:",
+    "vocabulariesInfo": "Введите не менее 3 символов и нажмите Enter, чтобы искать в SNOMED, ICD, RxNorm, LOINC и других словарях."
   },
   "cs": {
     "browser": {
