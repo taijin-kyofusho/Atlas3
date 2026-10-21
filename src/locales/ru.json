@@ -4324,13 +4324,13 @@
     "title": "Лицензионное соглашение"
   },
   "cohort": {
-    "addAttribute": "Add Attribute...",
-    "noAttributesAdded": "No attributes added"
+    "addAttribute": "Добавить атрибут…",
+    "noAttributesAdded": "Атрибуты не добавлены"
   },
   "cohortBuilder": {
     "tabs": {
-      "definition": "Definition",
-      "versions": "Versions"
+      "definition": "Определение",
+      "versions": "Версии"
     }
   },
   "inclusionRail": {
@@ -5553,48 +5553,48 @@
     "failedToExitRunAs": "Failed to exit run-as"
   },
   "conceptSets": {
-    "title": "Concept Sets",
-    "newConceptSet": "New Concept Set",
-    "noConceptSets": "No concept sets defined. Click \"New Concept Set\" to create one.",
-    "conceptCount": "<%=count%> concept(s)",
-    "concepts": "Concepts:",
-    "addConcepts": "Add Concepts",
-    "defaultName": "Concept Set <%=number%>",
-    "tagUpdateFailed": "Failed to update tags",
-    "pluginEditLoadFailed": "Could not open concept set {id}"
+    "title": "Наборы концептов",
+    "newConceptSet": "Новый набор концептов",
+    "noConceptSets": "Наборы концептов не созданы. Нажмите «Новый набор концептов», чтобы создать набор.",
+    "conceptCount": "<%=count%> концепт(ов)",
+    "concepts": "Концепты:",
+    "addConcepts": "Добавить концепты",
+    "defaultName": "Набор концептов <%=number%>",
+    "tagUpdateFailed": "Не удалось обновить теги",
+    "pluginEditLoadFailed": "Не удалось открыть набор концептов {id}"
   },
   "conceptSearch": {
-    "title": "Search OHDSI Vocabulary",
-    "searchLabel": "Search Concepts",
-    "searchPlaceholder": "Enter concept name (e.g., diabetes, metformin)",
-    "filterByDomain": "Filter by Domain",
-    "conceptInfo": "ID: <%=id%> | Domain: <%=domain%> | Vocabulary: <%=vocabulary%>",
-    "conceptDetails": "Code: <%=code%> | Class: <%=class%>",
-    "noResults": "No concepts found for \"<%=query%>\"",
-    "instructions": "Enter a search term to find concepts in the OHDSI vocabulary"
+    "title": "Поиск по словарю OHDSI",
+    "searchLabel": "Поиск концептов",
+    "searchPlaceholder": "Введите название концепта (например, диабет, метформин)",
+    "filterByDomain": "Фильтр по домену",
+    "conceptInfo": "ID: <%=id%> | Домен: <%=domain%> | Словарь: <%=vocabulary%>",
+    "conceptDetails": "Код: <%=code%> | Класс: <%=class%>",
+    "noResults": "По запросу «<%=query%>» концепты не найдены",
+    "instructions": "Введите поисковый запрос, чтобы найти концепты в словаре OHDSI"
   },
   "conceptSetEditor": {
-    "editTitle": "Edit Concept Set",
-    "createTitle": "Create Concept Set",
-    "nameLabel": "Concept Set Name",
-    "namePlaceholder": "e.g., Type 2 Diabetes",
-    "conceptsCount": "Concepts (<%=count%>)",
+    "editTitle": "Редактировать набор концептов",
+    "createTitle": "Создать набор концептов",
+    "nameLabel": "Название набора концептов",
+    "namePlaceholder": "например, сахарный диабет 2-го типа",
+    "conceptsCount": "Концепты (<%=count%>)",
     "conceptDetails": "ID: <%=id%> | <%=domain%> | <%=vocabulary%>",
-    "includeDescendants": "Include descendants",
-    "noConceptsYet": "No concepts added yet. Use the search to add concepts."
+    "includeDescendants": "Включить дочерние концепты",
+    "noConceptsYet": "Концепты ещё не добавлены. Найдите нужные концепты и добавьте их."
   },
   "conceptSetList": {
-    "createNew": "Create New",
-    "searchLabel": "Search Concept Sets",
-    "subtitle": "ID: <%=id%> | <%=count%> concepts",
-    "noMatch": "No concept sets match \"<%=query%>\"",
-    "noConceptSets": "No concept sets created yet. Click \"Create New\" to get started.",
-    "confirmDeleteTitle": "Confirm Delete",
-    "confirmDeleteMessage": "Are you sure you want to delete this concept set? This action cannot be undone."
+    "createNew": "Создать",
+    "searchLabel": "Поиск по наборам концептов",
+    "subtitle": "ID: <%=id%> | концептов: <%=count%>",
+    "noMatch": "По запросу «<%=query%>» наборы концептов не найдены",
+    "noConceptSets": "Наборы концептов ещё не созданы. Нажмите «Создать», чтобы начать.",
+    "confirmDeleteTitle": "Подтверждение удаления",
+    "confirmDeleteMessage": "Вы уверены, что хотите удалить этот набор концептов? Это действие нельзя отменить."
   },
   "conceptSearchInline": {
-    "searchLabel": "Search for concepts to add",
-    "searchPlaceholder": "Enter at least 3 characters..."
+    "searchLabel": "Найти концепты для добавления",
+    "searchPlaceholder": "Введите не менее 3 символов..."
   },
   "reports": {
     "selectReportType": "Select Report Type",
