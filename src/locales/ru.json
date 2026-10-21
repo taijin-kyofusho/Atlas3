@@ -5707,463 +5707,463 @@
   },
   "criteria": {
     "conditionEra": {
-      "name": "Condition Era",
+      "name": "Эра Состояния",
       "description": {
-        "initial": "Find patients with specific diagnosis era.",
-        "censoring": "Exit cohort based on diagnosis era.",
-        "group": "Find patients with specific condition era."
+        "initial": "Найти пациентов с определённой эрой Состояния.",
+        "censoring": "Завершать включение в когорту на основании эры диагноза.",
+        "group": "Найти пациентов с определённой эрой Состояния."
       }
     },
     "conditionOccurrence": {
-      "name": "Condition Occurrence",
+      "name": "Событие Состояния",
       "description": {
-        "initial": "Find patients with specific diagnoses.",
-        "censoring": "Exit cohort based on diagnoses.",
-        "group": "Find patients with specific conditions."
+        "initial": "Найти пациентов с определёнными диагнозами.",
+        "censoring": "Завершать включение в когорту на основании диагнозов.",
+        "group": "Найти пациентов с определёнными Состояниями."
       }
     },
     "death": {
-      "name": "Death",
+      "name": "Смерть",
       "description": {
-        "all": "Find patients based on death."
+        "all": "Найти пациентов по факту смерти."
       }
     },
     "deviceExposure": {
-      "name": "Device Exposure",
+      "name": "Воздействие Устройства",
       "description": {
-        "all": "Find patients based on device exposure."
+        "all": "Найти пациентов на основании воздействия Устройства."
       }
     },
     "doseEra": {
-      "name": "Dose Era",
+      "name": "Эра Дозирования",
       "description": {
-        "all": "Find patients with dose eras."
+        "all": "Найти пациентов с эрами дозирования."
       }
     },
     "drugEra": {
-      "name": "Drug Era",
+      "name": "Эра Препарата",
       "description": {
-        "initial": "Find patients with exposure to drugs over time.",
-        "censoring": "Exit cohort based on drugs over time.",
-        "group": "Find patients with drug eras."
+        "initial": "Найти пациентов, принимавших препараты в течение определённого времени.",
+        "censoring": "Завершать включение в когорту на основании применения препаратов во времени.",
+        "group": "Найти пациентов с эрами Препарата."
       }
     },
     "drugExposure": {
-      "name": "Drug Exposure",
+      "name": "Приём Препарата",
       "description": {
-        "all": "Find patients with exposure to specific drugs or drug classes."
+        "all": "Найти пациентов, принимавших определённые препараты или препараты определённых классов."
       }
     },
     "measurement": {
-      "name": "Measurement",
+      "name": "Измерение",
       "description": {
-        "initial": "Find patients based on measurement.",
-        "censoring": "Exit cohort based on measurement.",
-        "group": "Find patients based on measurements."
+        "initial": "Найти пациентов на основании Измерения.",
+        "censoring": "Завершать включение в когорту на основании Измерения.",
+        "group": "Найти пациентов на основании Измерений."
       }
     },
     "observation": {
-      "name": "Observation",
+      "name": "Наблюдение",
       "description": {
-        "initial": "Find patients based on observation.",
-        "censoring": "Exit cohort based on lab tests or other observations.",
-        "group": "Find patients based on observations."
+        "initial": "Найти пациентов на основании Наблюдения.",
+        "censoring": "Завершать включение в когорту на основании лабораторных анализов или других Наблюдений.",
+        "group": "Найти пациентов на основании Наблюдений."
       }
     },
     "observationPeriod": {
-      "name": "Observation Period",
+      "name": "Период Наблюдения",
       "description": {
-        "all": "Find patients based on observation period."
+        "all": "Найти пациентов на основании Периода Наблюдения."
       }
     },
     "payerPlanPeriod": {
-      "name": "Payer Plan Period",
+      "name": "Период Страхования",
       "description": {
-        "all": "Find patients based on payer plan period."
+        "all": "Найти пациентов на основании периода страхования."
       }
     },
     "procedureOccurrence": {
-      "name": "Procedure Occurrence",
+      "name": "Событие Процедуры",
       "description": {
-        "initial": "Find patients that experienced a specific procedure.",
-        "censoring": "Exit cohort based on procedure.",
-        "group": "Find patients based on procedures."
+        "initial": "Найти пациентов, которым проводилась определённая Процедура.",
+        "censoring": "Завершать включение в когорту на основании Процедуры.",
+        "group": "Найти пациентов на основании Процедур."
       }
     },
     "specimen": {
-      "name": "Specimen",
+      "name": "Образец",
       "description": {
-        "all": "Find patients based on specimen."
+        "all": "Найти пациентов на основании Образца."
       }
     },
     "visitOccurrence": {
-      "name": "Visit Occurrence",
+      "name": "Посещение",
       "description": {
-        "all": "Find patients based on visit information."
+        "all": "Найти пациентов на основании данных о Посещении."
       }
     },
     "visitDetail": {
-      "name": "Visit Detail",
+      "name": "Детализация Посещения",
       "description": {
-        "all": "Find patients based on visit detail information."
+        "all": "Найти пациентов на основании сведений о Детализации Посещения."
       }
     },
     "demographic": {
-      "name": "Demographic",
+      "name": "Демографические критерии",
       "description": {
-        "initial": "Find patients based on demographic criteria.",
-        "censoring": "Exit cohort based on demographic criteria.",
-        "group": "Filter events based on demographic criteria."
+        "initial": "Найти пациентов на основании демографических критериев.",
+        "censoring": "Завершать включение в когорту на основании демографических критериев.",
+        "group": "Фильтровать события по демографическим критериям."
       }
     },
     "locationRegion": {
-      "name": "Location Region",
+      "name": "Географический регион",
       "description": {
-        "group": "Find patients within geographical area."
+        "group": "Найти пациентов в заданном географическом регионе."
       }
     },
     "group": {
-      "name": "Group",
+      "name": "Группа",
       "description": {
-        "group": "Add a nested group to combine criteria using and/or relationships."
+        "group": "Добавить вложенную группу для объединения критериев с помощью операторов «И» и «ИЛИ»."
       }
     }
   },
   "attributes": {
     "default": {
-      "name": "Death Concept Set",
-      "description": "Select death concepts"
+      "name": "Набор концептов смерти",
+      "description": "Выберите концепты смерти"
     },
     "temporalRelationship": {
-      "name": "Temporal Relationship",
-      "description": "Define when the event occurs relative to the index date"
+      "name": "Временная последовательность",
+      "description": "Задайте, когда событие происходит относительно индексной даты"
     },
     "first": {
-      "name": "First Period",
-      "description": "Limit to first period in history"
+      "name": "Первый период",
+      "description": "Ограничить первым периодом в анамнезе"
     },
     "age": {
-      "name": "Age",
-      "description": "Filter by age at time of event"
+      "name": "Возраст",
+      "description": "Фильтровать по возрасту на момент события"
     },
     "gender": {
-      "name": "Gender",
-      "description": "Filter by patient gender"
+      "name": "Пол",
+      "description": "Фильтровать по полу пациента"
     },
     "conditionStatus": {
-      "name": "Condition Status",
-      "description": "Filter by condition status"
+      "name": "Статус Состояния",
+      "description": "Фильтровать по статусу Состояния"
     },
     "startDate": {
-      "name": "Start Date",
-      "description": "Filter by start date"
+      "name": "Дата начала",
+      "description": "Фильтровать по дате начала"
     },
     "endDate": {
-      "name": "End Date",
-      "description": "Filter by end date"
+      "name": "Дата окончания",
+      "description": "Фильтровать по дате окончания"
     },
     "dateAdjustment": {
-      "name": "Date Adjustment",
-      "description": "Adjust event dates"
+      "name": "Корректировка даты",
+      "description": "Корректировать даты события"
     },
     "conditionType": {
-      "name": "Condition Type",
-      "description": "Filter by condition type"
+      "name": "Тип Состояния",
+      "description": "Фильтровать по типу Состояния"
     },
     "visitType": {
-      "name": "Visit Type",
-      "description": "Filter by visit type"
+      "name": "Тип Посещения",
+      "description": "Фильтровать по типу Посещения"
     },
     "stopReason": {
-      "name": "Stop Reason",
-      "description": "Filter by stop reason text"
+      "name": "Причина прекращения",
+      "description": "Фильтровать по тексту причины прекращения"
     },
     "providerSpecialty": {
-      "name": "Provider Specialty",
-      "description": "Filter by provider specialty"
+      "name": "Специальность врача",
+      "description": "Фильтровать по специальности врача"
     },
     "nested": {
-      "name": "Nested Criteria",
-      "description": "Add nested criteria group"
+      "name": "Вложенные критерии",
+      "description": "Добавить группу вложенных критериев"
     },
     "ageAtStart": {
-      "name": "Age at Start",
-      "description": "Filter by age at period start"
+      "name": "Возраст на начало периода",
+      "description": "Фильтровать по возрасту на начало периода"
     },
     "ageAtEnd": {
-      "name": "Age at End",
-      "description": "Filter by age at period end"
+      "name": "Возраст на конец периода",
+      "description": "Фильтровать по возрасту на конец периода"
     },
     "occurrenceCount": {
-      "name": "Exposure Count",
-      "description": "Filter by exposure count"
+      "name": "Количество экспозиций",
+      "description": "Фильтровать по количеству экспозиций"
     },
     "eraLength": {
-      "name": "Era Length",
-      "description": "Filter by era duration"
+      "name": "Длительность эры",
+      "description": "Фильтровать по длительности эры"
     },
     "drugType": {
-      "name": "Drug Type",
-      "description": "Filter by drug type"
+      "name": "Тип Препарата",
+      "description": "Фильтровать по типу препарата"
     },
     "refills": {
-      "name": "Refills",
-      "description": "Filter by number of refills"
+      "name": "Повторные отпуски препарата",
+      "description": "Фильтровать по количеству повторных отпусков"
     },
     "quantity": {
-      "name": "Quantity",
-      "description": "Filter by quantity"
+      "name": "Количество",
+      "description": "Фильтровать по количеству"
     },
     "daysSupply": {
-      "name": "Days Supply",
-      "description": "Filter by days of drug supply"
+      "name": "Запас препарата в днях",
+      "description": "Фильтровать по запасу препарата в днях"
     },
     "routeConcept": {
-      "name": "Route",
-      "description": "Filter by route of administration"
+      "name": "Путь введения",
+      "description": "Фильтровать по пути введения препарата"
     },
     "effectiveDrugDose": {
-      "name": "Effective Drug Dose",
-      "description": "Filter by effective drug dose"
+      "name": "Эффективная доза препарата",
+      "description": "Фильтровать по эффективной дозе препарата"
     },
     "doseUnit": {
-      "name": "Dose Unit",
-      "description": "Filter by dose unit"
+      "name": "Единица дозы",
+      "description": "Фильтровать по единице дозы"
     },
     "lotNumber": {
-      "name": "Lot Number",
-      "description": "Filter by lot number"
+      "name": "Номер серии",
+      "description": "Фильтровать по номеру серии"
     },
     "doseValue": {
-      "name": "Dose Value",
-      "description": "Filter by dose value"
+      "name": "Значение дозы",
+      "description": "Фильтровать по значению дозы"
     },
     "deviceType": {
-      "name": "Device Type",
-      "description": "Filter by device type"
+      "name": "Тип Устройства",
+      "description": "Фильтровать по типу Устройства"
     },
     "deviceId": {
-      "name": "Unique Device ID",
-      "description": "Filter by unique device identifier"
+      "name": "Уникальный ID Устройства",
+      "description": "Фильтровать по уникальному ID Устройства"
     },
     "deviceSourceConcept": {
-      "name": "Device Source Concept",
-      "description": "Filter by device source concept"
+      "name": "Исходный концепт Устройства",
+      "description": "Фильтровать по исходному концепту Устройства"
     },
     "measurementType": {
-      "name": "Measurement Type Criteria",
-      "description": "Filter by measurement type"
+      "name": "Критерии типа Измерения",
+      "description": "Фильтровать по типу Измерения"
     },
     "operator": {
-      "name": "Operator",
-      "description": "Filter by operator"
+      "name": "Оператор",
+      "description": "Фильтровать по оператору"
     },
     "valueAsNumber": {
-      "name": "Value as Number",
-      "description": "Filter by numeric value"
+      "name": "Числовое значение",
+      "description": "Фильтровать по числовому значению"
     },
     "valueAsConcept": {
-      "name": "Value as Concept",
-      "description": "Filter by categorical value"
+      "name": "Значение-концепт",
+      "description": "Фильтровать по значению-концепту"
     },
     "unit": {
-      "name": "Unit",
-      "description": "Filter by unit"
+      "name": "Единица измерения",
+      "description": "Фильтровать по единице измерения"
     },
     "abnormal": {
-      "name": "Abnormal",
-      "description": "Filter for abnormal results"
+      "name": "Аномальное значение",
+      "description": "Фильтровать по аномальным результатам"
     },
     "rangeLow": {
-      "name": "Range Low",
-      "description": "Filter by lower range"
+      "name": "Нижняя граница диапазона",
+      "description": "Фильтровать по нижней границе диапазона"
     },
     "rangeHigh": {
-      "name": "Range High",
-      "description": "Filter by upper range"
+      "name": "Верхняя граница диапазона",
+      "description": "Фильтровать по верхней границе диапазона"
     },
     "rangeLowRatio": {
-      "name": "Range Low Ratio",
-      "description": "Filter by lower range ratio"
+      "name": "Отношение к нижней границе диапазона",
+      "description": "Фильтровать по отношению к нижней границе диапазона"
     },
     "rangeHighRatio": {
-      "name": "Range High Ratio",
-      "description": "Filter by upper range ratio"
+      "name": "Отношение к верхней границе диапазона",
+      "description": "Фильтровать по отношению к верхней границе диапазона"
     },
     "measurementSourceConcept": {
-      "name": "Measurement Source Concept",
-      "description": "Filter by measurement source concept"
+      "name": "Исходный концепт Измерения",
+      "description": "Фильтровать по исходному концепту Измерения"
     },
     "observationType": {
-      "name": "Observation Date Criteria",
-      "description": "Filter by observation type"
+      "name": "Критерии даты Наблюдения",
+      "description": "Фильтровать по типу Наблюдения"
     },
     "valueAsString": {
-      "name": "Value as String",
-      "description": "Filter by text value"
+      "name": "Текстовое значение",
+      "description": "Фильтровать по текстовому значению"
     },
     "qualifier": {
-      "name": "Критерий уточняющего признака",
+      "name": "Уточняющий признак",
       "description": "Фильтровать по уточняющему признаку"
     },
     "observationSourceConcept": {
-      "name": "Observation Source Concept",
-      "description": "Filter by source concept"
+      "name": "Исходный концепт Наблюдения",
+      "description": "Фильтровать по исходному концепту"
     },
     "procedureType": {
-      "name": "Procedure Type",
-      "description": "Filter by procedure type"
+      "name": "Тип Процедуры",
+      "description": "Фильтровать по типу Процедуры"
     },
     "modifier": {
-      "name": "Modifier",
-      "description": "Filter by procedure modifier"
+      "name": "Модификатор",
+      "description": "Фильтровать по модификатору Процедуры"
     },
     "procedureSourceConcept": {
-      "name": "Procedure Source Concept",
-      "description": "Filter by source concept"
+      "name": "Исходный концепт Процедуры",
+      "description": "Фильтровать по исходному концепту"
     },
     "specimenType": {
-      "name": "Specimen Type",
-      "description": "Filter by specimen type"
+      "name": "Тип Образца",
+      "description": "Фильтровать по типу Образца"
     },
     "anatomicSite": {
-      "name": "Anatomic Site",
-      "description": "Filter by anatomic site"
+      "name": "Анатомическая локализация",
+      "description": "Фильтровать по анатомической локализации"
     },
     "diseaseStatus": {
-      "name": "Disease Status",
-      "description": "Filter by disease status"
+      "name": "Статус заболевания",
+      "description": "Фильтровать по статусу заболевания"
     },
     "sourceId": {
-      "name": "Source ID",
-      "description": "Filter by source ID"
+      "name": "Исходный ID",
+      "description": "Фильтровать по исходному ID"
     },
     "visitLength": {
-      "name": "Visit Length",
-      "description": "Filter by length of visit"
+      "name": "Длительность Посещения",
+      "description": "Фильтровать по длительности Посещения"
     },
     "sourceConcept": {
-      "name": "Source Concept",
-      "description": "Filter by source concept"
+      "name": "Исходный концепт",
+      "description": "Фильтровать по исходному концепту"
     },
     "placeOfService": {
-      "name": "Place of Service",
-      "description": "Filter by place of service"
+      "name": "Место оказания мед. помощи",
+      "description": "Фильтровать по месту оказания медицинской помощи"
     },
     "visitDetailType": {
-      "name": "Visit Detail Type",
-      "description": "Filter by visit type"
+      "name": "Тип Детализации Посещения",
+      "description": "Фильтровать по типу Посещения"
     },
     "visitDetailLength": {
-      "name": "Visit Detail Length",
-      "description": "Filter by length of visit"
+      "name": "Длительность Детализации Посещения",
+      "description": "Фильтровать по длительности Детализации Посещения"
     },
     "placeOfServiceLocation": {
-      "name": "Place of Service Location",
-      "description": "Filter by place of service location"
+      "name": "Расположение места оказания мед. помощи",
+      "description": "Фильтровать по расположению места оказания медицинской помощи"
     },
     "userDefinedPeriod": {
-      "name": "User Defined Period",
-      "description": "Specify Start and End Dates"
+      "name": "Период, заданный пользователем",
+      "description": "Задайте даты начала и окончания"
     },
     "periodType": {
-      "name": "Period Type",
-      "description": "Filter by period type"
+      "name": "Тип Периода",
+      "description": "Фильтровать по типу периода"
     },
     "periodLength": {
-      "name": "Period Length",
-      "description": "Filter by length of period"
+      "name": "Длительность периода",
+      "description": "Фильтровать по длительности периода"
     },
     "payerConcept": {
-      "name": "Payer",
-      "description": "Filter by payer concept"
+      "name": "Плательщик",
+      "description": "Фильтровать по концепту плательщика"
     },
     "planConcept": {
-      "name": "Plan",
-      "description": "Filter by plan concept"
+      "name": "План",
+      "description": "Фильтровать по концепту плана"
     },
     "sponsorConcept": {
-      "name": "Sponsor",
-      "description": "Filter by sponsor concept"
+      "name": "Спонсор",
+      "description": "Фильтровать по концепту спонсора"
     },
     "stopReasonConcept": {
-      "name": "Stop Reason",
-      "description": "Filter by stop reason concept"
+      "name": "Причина прекращения",
+      "description": "Фильтровать по концепту причины прекращения"
     },
     "payerSourceConcept": {
-      "name": "Payer Source",
-      "description": "Filter by payer source concept"
+      "name": "Исходный плательщик",
+      "description": "Фильтровать по исходному концепту плательщика"
     },
     "planSourceConcept": {
-      "name": "Plan Source",
-      "description": "Filter by plan source concept"
+      "name": "Исходный план",
+      "description": "Фильтровать по исходному концепту плана"
     },
     "sponsorSourceConcept": {
-      "name": "Sponsor Source",
-      "description": "Filter by sponsor source concept"
+      "name": "Исходный спонсор",
+      "description": "Фильтровать по исходному концепту спонсора"
     },
     "stopReasonSourceConcept": {
-      "name": "Stop Reason Source",
-      "description": "Filter by stop reason source concept"
+      "name": "Исходная причина прекращения",
+      "description": "Фильтровать по исходному концепту причины прекращения"
     },
     "deathType": {
-      "name": "Death Type",
-      "description": "Filter by death type"
+      "name": "Тип Смерти",
+      "description": "Фильтровать по типу Смерти"
     },
     "deathSourceConcept": {
-      "name": "Death Source Concept",
-      "description": "Filter by death source concept"
+      "name": "Исходный концепт Смерти",
+      "description": "Фильтровать по исходному концепту Смерти"
     },
     "race": {
-      "name": "Race",
-      "description": "Filter by patient race"
+      "name": "Раса",
+      "description": "Фильтровать по расе пациента"
     },
     "ethnicity": {
-      "name": "Ethnicity",
-      "description": "Filter by patient ethnicity"
+      "name": "Этнос",
+      "description": "Фильтровать по этносу пациента"
     }
   },
   "exitCriteria": {
-    "title": "Exit Criteria",
-    "eventPersistence": "Event Persistence:",
-    "censorWindow": "Censor Window",
-    "censoringEvents": "Censoring Events:",
+    "title": "Критерии выхода",
+    "eventPersistence": "Сохранение события:",
+    "censorWindow": "Окно цензурирования",
+    "censoringEvents": "События цензурирования:",
     "strategies": {
-      "continuousObservation": "End of Continuous Observation",
-      "fixedDuration": "Fixed Duration Relative to Initial Event",
-      "drugExposure": "End of Continuous Drug Exposure"
+      "continuousObservation": "Окончание непрерывного наблюдения",
+      "fixedDuration": "Фиксированная длительность относительно исходного события",
+      "drugExposure": "Окончание непрерывного приёма препаратов"
     },
     "fields": {
-      "dateField": "Date Field",
-      "offset": "Offset (days)",
-      "startDate": "Start Date",
-      "endDate": "End Date",
-      "conceptSet": "Drug Concept Set",
-      "persistenceWindow": "Persistence Window (days)",
-      "surveillanceWindow": "Surveillance Window (days)"
+      "dateField": "Поле даты",
+      "offset": "Смещение (дни)",
+      "startDate": "Дата начала",
+      "endDate": "Дата окончания",
+      "conceptSet": "Набор концептов препаратов",
+      "persistenceWindow": "Окно допустимого перерыва (дни)",
+      "surveillanceWindow": "Период наблюдения после последнего события (дни)"
     },
     "help": {
-      "continuousObservation": "Event persists until observation period ends",
-      "fixedDuration": "Event persists for a specified number of days from start or end date",
-      "drugExposure": "Event persists based on continuous drug exposure with allowable gaps between exposures",
-      "censorWindow": "Defines observation period boundaries relative to index event",
-      "persistenceWindow": "Maximum gap days between exposures",
-      "surveillanceWindow": "Additional days after final exposure before cohort exit",
-      "missingDaysSupply": "If days supply is missing, system assumes 1 day per exposure"
+      "continuousObservation": "Событие сохраняется до окончания периода наблюдения",
+      "fixedDuration": "Событие сохраняется заданное количество дней с даты начала или окончания",
+      "drugExposure": "Событие сохраняется при непрерывном приёме препаратов с допустимыми перерывами между приёмами",
+      "censorWindow": "Задаёт границы периода наблюдения относительно индексного события",
+      "persistenceWindow": "Максимально допустимый перерыв между приёмами препаратов",
+      "surveillanceWindow": "Дополнительное количество дней после последнего события до выхода из когорты",
+      "missingDaysSupply": "Если количество дней обеспечения препаратом не указано, система считает, что каждый приём препарата обеспечивает один день"
     },
     "validation": {
-      "offsetNonNegative": "Offset values must be non-negative",
-      "offsetRequired": "Offset is required for fixed duration strategy",
-      "conceptSetRequired": "Drug concept set required for this strategy",
-      "conceptSetNotFound": "Concept set not found in this cohort",
-      "invalidConceptSetReference": "Invalid concept set reference",
-      "startGreaterThanEnd": "Start offset must be less than or equal to end offset",
-      "nonDrugConcepts": "Drug concept set contains {count} non-drug concepts"
+      "offsetNonNegative": "Значения смещения должны быть неотрицательными",
+      "offsetRequired": "Для стратегии фиксированной длительности необходимо указать смещение",
+      "conceptSetRequired": "Для этой стратегии необходимо указать набор концептов препаратов",
+      "conceptSetNotFound": "Набор концептов не найден в этой когорте",
+      "invalidConceptSetReference": "Недопустимая ссылка на набор концептов",
+      "startGreaterThanEnd": "Смещение для даты начала должно быть меньше или равно смещению для даты окончания",
+      "nonDrugConcepts": "Набор концептов препаратов содержит {count} концептов, не относящихся к препаратам"
     },
     "actions": {
-      "addCensoringEvent": "Add Censoring Event",
-      "clearCensorWindow": "Clear Censor Window",
-      "removeCensoringEvent": "Remove"
+      "addCensoringEvent": "Добавить событие цензурирования",
+      "clearCensorWindow": "Очистить окно цензурирования",
+      "removeCensoringEvent": "Удалить"
     }
   },
   "config": {
