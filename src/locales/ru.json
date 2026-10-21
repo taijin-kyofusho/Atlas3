@@ -2502,91 +2502,91 @@
   },
   "featureAnalyses": {
     "list": {
-      "title": "Feature Analyses",
-      "newButton": "New Feature Analysis",
-      "searchPlaceholder": "Search feature analyses...",
-      "empty": "No feature analyses found.",
+      "title": "Анализы признаков",
+      "newButton": "Новый анализ признаков",
+      "searchPlaceholder": "Поиск анализов признаков…",
+      "empty": "Анализы признаков не найдены.",
       "columns": {
-        "name": "Name",
-        "type": "Type",
-        "domain": "Domain",
-        "statType": "Stat Type",
-        "createdBy": "Created By",
-        "createdDate": "Created",
-        "modifiedDate": "Modified",
-        "actions": "Actions"
+        "name": "Название",
+        "type": "Тип",
+        "domain": "Домен",
+        "statType": "Тип статистики",
+        "createdBy": "Автор",
+        "createdDate": "Создано",
+        "modifiedDate": "Изменено",
+        "actions": "Действия"
       },
       "actions": {
-        "edit": "Edit",
-        "copy": "Copy",
-        "delete": "Delete"
+        "edit": "Редактировать",
+        "copy": "Копировать",
+        "delete": "Удалить"
       },
-      "deleteConfirm": "Delete feature analysis '{name}'?",
+      "deleteConfirm": "Удалить анализ признаков «{name}»?",
       "create": {
-        "prevalence": "Prevalence Criteria",
-        "distribution": "Distribution Criteria",
-        "custom": "Custom SQL"
+        "prevalence": "Критерии распространённости",
+        "distribution": "Критерии распределения",
+        "custom": "Пользовательский SQL"
       }
     },
     "create": {
-      "prevalence": "Prevalence Criteria",
-      "distribution": "Distribution Criteria",
-      "custom": "Custom SQL"
+      "prevalence": "Критерии распространённости",
+      "distribution": "Критерии распределения",
+      "custom": "Пользовательский SQL"
     },
     "editor": {
-      "comingSoon": "Feature Analysis editor coming soon",
-      "back": "Back to list",
+      "comingSoon": "Редактор анализов признаков скоро появится",
+      "back": "Вернуться к списку",
       "title": {
-        "new": "New Feature Analysis",
-        "edit": "Edit Feature Analysis"
+        "new": "Новый анализ признаков",
+        "edit": "Редактировать анализ признаков"
       },
       "common": {
-        "name": "Name",
-        "description": "Description",
-        "type": "Type",
-        "domain": "Domain",
-        "statType": "Stat Type"
+        "name": "Название",
+        "description": "Описание",
+        "type": "Тип",
+        "domain": "Домен",
+        "statType": "Тип статистики"
       },
       "typeOptions": {
-        "PRESET": "Preset (FeatureExtraction settings)",
-        "CRITERIA_SET": "Criteria Set",
-        "CUSTOM_FE": "Custom SQL"
+        "PRESET": "Шаблон (настройки FeatureExtraction)",
+        "CRITERIA_SET": "Набор критериев",
+        "CUSTOM_FE": "Пользовательский SQL"
       },
       "preset": {
-        "loadDefault": "Load default covariate settings",
-        "loadDefaultTemporal": "Load default temporal covariate settings",
-        "designLabel": "Covariate settings (JSON)",
-        "invalidJson": "Invalid JSON"
+        "loadDefault": "Загрузить настройки ковариат по умолчанию",
+        "loadDefaultTemporal": "Загрузить настройки ковариат для временного анализа по умолчанию",
+        "designLabel": "Настройки ковариат (JSON)",
+        "invalidJson": "Некорректный JSON"
       },
       "prevalence": {
-        "addCriteria": "Add Criteria feature",
-        "empty": "No criteria features yet."
+        "addCriteria": "Добавить признак-критерий",
+        "empty": "Признаки-критерии пока не добавлены."
       },
       "criteriaSet": {
-        "explainer": "Criteria builder integration ships in Phase 3. For now, edit JSON directly.",
-        "conceptSetsLabel": "Concept sets (JSON array)",
-        "criteriaLabel": "Criteria group (JSON)"
+        "explainer": "Конструктор критериев появится на этапе 3. Пока редактируйте JSON напрямую.",
+        "conceptSetsLabel": "Наборы концептов (массив JSON)",
+        "criteriaLabel": "Группа критериев (JSON)"
       },
       "distribution": {
-        "addCriteria": "Add Criteria feature",
-        "empty": "No criteria features yet.",
-        "demographicSubtitle": "Demographic criteria are not windowed"
+        "addCriteria": "Добавить признак-критерий",
+        "empty": "Признаки-критерии пока не добавлены.",
+        "demographicSubtitle": "Для демографических критериев временные окна не применяются"
       },
       "customFe": {
-        "sqlLabel": "Custom SQL"
+        "sqlLabel": "Пользовательский SQL"
       },
       "actions": {
-        "save": "Save",
-        "saveCopy": "Save as Copy",
-        "delete": "Delete",
-        "back": "Back"
+        "save": "Сохранить",
+        "saveCopy": "Сохранить копию",
+        "delete": "Удалить",
+        "back": "Назад"
       },
-      "deleteConfirm": "Delete feature analysis '{name}'?",
-      "leaveConfirm": "You have unsaved changes. Leave anyway?",
-      "saveSuccess": "Feature analysis saved",
-      "saveError": "Failed to save feature analysis",
-      "aggregatesUnavailable": "Unable to load the default aggregate",
-      "nameRequired": "Name is required"
+      "deleteConfirm": "Удалить анализ признаков «{name}»?",
+      "leaveConfirm": "Есть несохранённые изменения. Всё равно выйти?",
+      "saveSuccess": "Анализ признаков сохранён",
+      "saveError": "Не удалось сохранить анализ признаков",
+      "aggregatesUnavailable": "Не удалось загрузить агрегат по умолчанию",
+      "nameRequired": "Необходимо указать название"
     }
   },
   "facets": {
@@ -3632,46 +3632,46 @@
   },
   "profiles": {
     "ageAt": "Возраст <%=age%>",
-    "atIndex": "при индексировании",
-    "atStartOfObservation": "при начале наблюдений",
+    "atIndex": "на индексную дату",
+    "atStartOfObservation": "на начало периода наблюдения",
     "chart": {
       "event": "Событие: ",
       "startDate": "Дата начала: ",
       "startDay": "День начала: "
     },
-    "clearAllHighlightColors": "Очистить все цвета подстветки",
+    "clearAllHighlightColors": "Сбросить все цвета подсветки",
     "clickHereToSelectACohort": "Нажмите здесь, чтобы выбрать когорту",
     "eventHighlighting": "Подсветка событий",
-    "highlightEventsTooltip": "Подсветка событий",
-    "loadingProfile": "Загрузка данных профиля",
-    "personId": "ID профиля",
-    "processingProfile": "Обработка профиля",
-    "recordCounts": "<%=count%> записей",
+    "highlightEventsTooltip": "Подсветить события",
+    "loadingProfile": "Загрузка данных профиля из базы данных",
+    "personId": "ID пациента",
+    "processingProfile": "Обработка данных профиля",
+    "recordCounts": "<%=count%> событий",
     "selectADataSource": "Выберите источник данных",
-    "setSelectedEventsColor": "Установить цвет для выбранных событий",
+    "setSelectedEventsColor": "Задать цвет подсветки выбранных событий",
     "title": "Профили",
-    "toggleChartTooltip": "Включить/выключить график",
-    "toggleTableTooltip": "Включить/выключить таблицу",
-    "сantFind": "Не найдено",
-    "searchConceptsToHighlight": "Search concepts to highlight",
-    "highlightNone": "None",
-    "setHighlightColor": "Set highlight color",
-    "conceptSetHighlightingComingSoon": "Concept-set highlighting coming soon",
-    "highlightEyebrow": "HIGHLIGHT",
-    "highlightTabConcepts": "concepts",
-    "highlightTabSets": "sets",
-    "clearAllHighlights": "Clear all highlights",
-    "gender": "Gender",
-    "birthYear": "Birth Year",
-    "age": "Age",
-    "events": "Events",
-    "ageAtIndexTooltip": "Age at cohort index date",
-    "ageAtObservationStartTooltip": "Age at start of observation",
-    "searchEvents": "Search events",
-    "findAPerson": "Find a person",
-    "chooseSourceAndPerson": "Choose a data source and enter a person ID",
-    "dataSource": "Data source",
-    "emptyHint": "Use the source picker and person ID above to load a profile."
+    "toggleChartTooltip": "Показать или скрыть график",
+    "toggleTableTooltip": "Показать или скрыть таблицу",
+    "сantFind": "Не удаётся найти",
+    "searchConceptsToHighlight": "Поиск концептов для подсветки",
+    "highlightNone": "Нет",
+    "setHighlightColor": "Задать цвет подсветки",
+    "conceptSetHighlightingComingSoon": "Подсветка наборов концептов скоро появится",
+    "highlightEyebrow": "ПОДСВЕТКА",
+    "highlightTabConcepts": "концепты",
+    "highlightTabSets": "наборы",
+    "clearAllHighlights": "Убрать всю подсветку",
+    "gender": "Пол",
+    "birthYear": "Год рождения",
+    "age": "Возраст",
+    "events": "События",
+    "ageAtIndexTooltip": "Возраст на индексную дату когорты",
+    "ageAtObservationStartTooltip": "Возраст на начало периода наблюдения",
+    "searchEvents": "Поиск событий",
+    "findAPerson": "Найти пациента",
+    "chooseSourceAndPerson": "Выберите источник данных и введите ID пациента",
+    "dataSource": "Источник данных",
+    "emptyHint": "Выберите источник данных и введите ID пациента выше, чтобы загрузить профиль."
   },
   "pathways": {
     "loading": "Loading Pathway Analysis list...",
