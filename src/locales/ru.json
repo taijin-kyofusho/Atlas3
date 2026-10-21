@@ -4334,21 +4334,21 @@
     }
   },
   "inclusionRail": {
-    "groups": "{count} groups",
-    "criteria": "{count} criteria",
-    "add": "Add rule",
-    "selectRule": "Select a rule on the left to edit it.",
-    "descriptionPlaceholder": "Add a description for this inclusion rule…",
-    "addCriteriaGroup": "Add criteria group",
-    "title": "Inclusion rules",
-    "entryEvents": "Entry events",
-    "of": "of",
-    "datasetPatients": "dataset patients",
-    "qualifyingCohort": "Qualifying cohort",
-    "ofEntry": "of entry",
-    "group": "1 group",
-    "criterion": "1 criterion",
-    "unnamedRule": "Unnamed Rule"
+    "groups": "{count} групп",
+    "criteria": "{count} критериев",
+    "add": "Добавить правило",
+    "selectRule": "Выберите правило слева, чтобы изменить его.",
+    "descriptionPlaceholder": "Добавьте описание этого правила включения…",
+    "addCriteriaGroup": "Добавить группу критериев",
+    "title": "Правила включения",
+    "entryEvents": "События входа",
+    "of": "из",
+    "datasetPatients": "пациенты датасета",
+    "qualifyingCohort": "Квалифицирующая когорта",
+    "ofEntry": "от числа событий входа",
+    "group": "1 группа",
+    "criterion": "1 критерий",
+    "unnamedRule": "Правило без названия"
   },
   "cohortDefinitions": {
     "closeYourCurrentCohort": "Пожалуйста, закройте текущее определение когорты перед созданием нового",
@@ -6598,7 +6598,7 @@
     "system": "Системная"
   },
   "inclusionPanel": {
-    "limitIncludedEvents": "Limit Included Events to"
+    "limitIncludedEvents": "Ограничить включённые события"
   },
   "apiKeys": {
     "list": {
