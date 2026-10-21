@@ -1,8 +1,8 @@
 {
   "locale": "ru",
   "a11y": {
-    "skipToMain": "Skip to main content",
-    "logoHome": "OHDSI ATLAS Home"
+    "skipToMain": "Перейти к основному содержимому",
+    "logoHome": "Главная страница OHDSI ATLAS"
   },
   "cohortAgent": {
     "title": "Pythia AI Agent",
@@ -5362,15 +5362,15 @@
   "notifications": {
     "duration": "Длительность",
     "endTime": "Время окончания",
-    "explanation": "Здесь будут отображены уведомления для задач. Задачи включают генерацию когорт, отчеты и другие долговременные процессы. Иконка цведомлений <i class=\"fa fa-bell pending\"></i> будет подсвечена, если есть новые уведомления.",
-    "hideCompletedJobsButton": "Скрыть завершенные задачи",
-    "jobName": "Имя задачи",
-    "showCompletedJobsButton": "Показать завершенные задачи",
-    "status": "Состояние",
+    "explanation": "Здесь отображаются уведомления о заданиях. Заданием может быть генерация когорты, формирование отчёта по когорте или другая длительная операция. Значок уведомлений в правом верхнем углу будет выделен <i class='fa fa-bell pending'></i>, если появятся новые уведомления.",
+    "hideCompletedJobsButton": "Скрыть завершённые задания",
+    "jobName": "Название задания",
+    "showCompletedJobsButton": "Показать завершённые задания",
+    "status": "Статус",
     "title": "Уведомления (последние <%=length%>)",
     "tabs": {
-      "myJobs": "Мои задачи",
-      "allJobs": "Все задачи"
+      "myJobs": "Мои задания",
+      "allJobs": "Все задания"
     }
   },
   "predictions": {
