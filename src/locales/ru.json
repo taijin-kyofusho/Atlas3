@@ -3496,40 +3496,40 @@
     }
   },
   "home": {
-    "description": "АТЛАС это продукт с открытым исходным кодом, разработанный в рамках <a href=\"http://www.ohdsi.org\" target=\"_new\">OHDSI</a>, предоставляющий доступ к данным пациентов и аналитике.",
+    "description": "ATLAS — приложение с открытым исходным кодом, разработанное в рамках <a href='http://www.ohdsi.org' target='_new'>OHDSI</a>. Оно предоставляет единый интерфейс для работы с данными пациентов и аналитикой.",
     "documentation": {
-      "text": "Руководство пользователя АТЛАС можно найти <a target=\"_new\" href=\"http://www.ohdsi.org/web/wiki/doku.php?id=documentation:software:atlas\">здесь</a>.",
+      "text": "Руководство пользователя ATLAS можно найти <a target='_new' href='http://www.ohdsi.org/web/wiki/doku.php?id=documentation:software:atlas'>здесь</a>.",
       "title": "Документация"
     },
     "features": {
-      "characterization": "Describe a population's baseline features and outcomes.",
-      "docs": "Browse the ATLAS v3.0 user guide without leaving the app.",
-      "pathway": "Visualize sequences of interventions over time.",
-      "incidenceRate": "Estimate event rates over time across populations."
+      "characterization": "Описывайте исходные характеристики и исходы популяции.",
+      "docs": "Просматривайте руководство пользователя ATLAS v3.0, не покидая приложение.",
+      "pathway": "Визуализируйте последовательности этапов лекарственной терапии во времени.",
+      "incidenceRate": "Оценивайте уровень заболеваемости в популяциях во времени."
     },
     "gettingStarted": {
       "newCohort": {
-        "button": "Создать Новую Когорту",
-        "description": "Начать исследование с определения группы людей, которых вы хотите изучить"
+        "button": "Создать новую когорту",
+        "description": "Начните исследование с определения группы пациентов, которую планируете изучать."
       },
       "title": "Начало работы",
       "vocabulary": {
-        "button": "Поиск по Словарю",
-        "description": "Найти различные онтологии, используемые для описания данных пациента по всему миру"
+        "button": "Поиск по словарю",
+        "description": "Ищите в различных онтологиях, используемых во всём мире для описания данных о пациентах."
       }
     },
     "releaseNotes": {
-      "issues": "<br/> Данный релиз содержит <b><%=issues%></b> улучшений и исправлений:",
-      "loadingReleaseInfo": "Загрузка данных о Релизе",
-      "title": "Примечания к Релизу"
+      "issues": "В этом релизе представлены <b><%=issues%></b> улучшений функциональности и исправлений ошибок:",
+      "loadingReleaseInfo": "Загрузка сведений о релизе",
+      "title": "Примечания к релизу"
     },
-    "title": "Начало",
-    "welcome": "Добро пожаловать в Атлас.",
+    "title": "Главная",
+    "welcome": "Добро пожаловать в ATLAS.",
     "newEntityNames": {
-      "incidenceRate": "New incidence rate",
-      "pathway": "New pathway",
-      "characterization": "New characterization",
-      "featureAnalysis": "New feature analysis"
+      "incidenceRate": "Новый уровень заболеваемости",
+      "pathway": "Новая траектория",
+      "characterization": "Новая характеризация",
+      "featureAnalysis": "Новый анализ признаков"
     }
   },
   "ir": {
@@ -5597,111 +5597,111 @@
     "searchPlaceholder": "Введите не менее 3 символов..."
   },
   "reports": {
-    "selectReportType": "Select Report Type",
+    "selectReportType": "Выберите тип отчёта",
     "types": {
       "person": {
-        "label": "Person (Demographics)",
-        "description": "Year of birth and demographic distributions"
+        "label": "Пациент (демографические характеристики)",
+        "description": "Распределение по году рождения и демографическим характеристикам"
       },
       "conditionEras": {
-        "label": "Condition Eras",
-        "description": "Condition prevalence and duration analysis"
+        "label": "Эры Состояния",
+        "description": "Анализ распространённости Состояний и их длительности"
       },
       "drugEras": {
-        "label": "Drug Eras",
-        "description": "Drug exposure prevalence and duration"
+        "label": "Эры Препарата",
+        "description": "Распространённость и длительность приёма Препаратов"
       },
       "cohortSpecific": {
-        "label": "Cohort Specific",
-        "description": "Cohort timeline and distribution analytics"
+        "label": "Отчёты по когорте",
+        "description": "Анализ временных шкал и распределений в когорте"
       },
       "condition": {
-        "label": "Condition Occurrence",
-        "description": "Individual condition occurrences"
+        "label": "События Состояний",
+        "description": "Отдельные события Состояний"
       },
       "conditionsByIndex": {
-        "label": "Conditions by Index",
-        "description": "Conditions relative to cohort start"
+        "label": "Состояния относительно начала когорты",
+        "description": "Состояния относительно начала когорты"
       },
       "death": {
-        "label": "Death",
-        "description": "Mortality data and causes"
+        "label": "Смертность",
+        "description": "Данные о смертности и её причинах"
       },
       "drugExposure": {
-        "label": "Drug Exposure",
-        "description": "Individual drug exposure events"
+        "label": "Приёмы Препаратов",
+        "description": "Отдельные события приёма Препаратов"
       },
       "drugsByIndex": {
-        "label": "Drugs by Index",
-        "description": "Drug exposures relative to cohort start"
+        "label": "Препараты относительно начала когорты",
+        "description": "Приём Препаратов относительно начала когорты"
       },
       "observationPeriods": {
-        "label": "Observation Periods",
-        "description": "Patient observation period coverage"
+        "label": "Периоды Наблюдения",
+        "description": "Охват периодами наблюдения пациентов"
       },
       "procedure": {
-        "label": "Procedure Occurrence",
-        "description": "Procedure events and frequency"
+        "label": "События Процедур",
+        "description": "События Процедур и их частота"
       },
       "proceduresByIndex": {
-        "label": "Procedures by Index",
-        "description": "Procedures relative to cohort start"
+        "label": "Процедуры относительно начала когорты",
+        "description": "Процедуры относительно начала когорты"
       },
       "dataCompleteness": {
-        "label": "Data Completeness",
-        "description": "Data quality metrics"
+        "label": "Полнота данных",
+        "description": "Метрики качества данных"
       },
       "entropy": {
-        "label": "Entropy",
-        "description": "Data entropy analysis"
+        "label": "Энтропия",
+        "description": "Анализ энтропии данных"
       },
       "tornado": {
-        "label": "Tornado",
-        "description": "Tornado diagram visualization"
+        "label": "Диаграмма «Торнадо»",
+        "description": "Визуализация в виде диаграммы «Торнадо»"
       },
       "personsExposureBaseline": {
-        "label": "Persons/Exposure (Baseline)",
-        "description": "Baseline period persons and exposures"
+        "label": "Пациенты/экспозиция (исходный период)",
+        "description": "Пациенты и экспозиции за исходный период"
       },
       "personsExposureCohort": {
-        "label": "Persons/Exposure (Cohort)",
-        "description": "Cohort period persons and exposures"
+        "label": "Пациенты/экспозиция (период когорты)",
+        "description": "Пациенты и экспозиции за период когорты"
       },
       "visitsBaseline": {
-        "label": "Visits (Baseline)",
-        "description": "Baseline period visit data"
+        "label": "Посещения (исходный период)",
+        "description": "Данные о Посещениях за исходный период"
       },
       "visitDatesBaseline": {
-        "label": "Visit Dates (Baseline)",
-        "description": "Baseline visit date distribution"
+        "label": "Даты Посещений (исходный период)",
+        "description": "Распределение дат Посещений за исходный период"
       },
       "careSiteVisitDatesBaseline": {
-        "label": "Care Site Visit Dates (Baseline)",
-        "description": "Baseline care site visit patterns"
+        "label": "Даты Посещений в медицинском учреждении (исходный период)",
+        "description": "Распределение посещений по мед. учреждениям за исходный период"
       },
       "visitsCohort": {
-        "label": "Visits (Cohort)",
-        "description": "Cohort period visit data"
+        "label": "Посещения (период когорты)",
+        "description": "Данные о Посещениях за период когорты"
       },
       "visitDatesCohort": {
-        "label": "Visit Dates (Cohort)",
-        "description": "Cohort visit date distribution"
+        "label": "Даты Посещений (период когорты)",
+        "description": "Распределение дат Посещений за период когорты"
       },
       "careSiteVisitDatesCohort": {
-        "label": "Care Site Visit Dates (Cohort)",
-        "description": "Cohort care site visit patterns"
+        "label": "Даты Посещений в медицинском учреждении (период когорты)",
+        "description": "Распределение посещений по мед. учреждениям за период когорты"
       },
       "drugUtilizationBaseline": {
-        "label": "Drug Utilization (Baseline)",
-        "description": "Baseline drug utilization patterns"
+        "label": "Использование Препаратов (исходный период)",
+        "description": "Характеристики использования Препаратов за исходный период"
       },
       "drugUtilizationCohort": {
-        "label": "Drug Utilization (Cohort)",
-        "description": "Cohort drug utilization patterns"
+        "label": "Использование Препаратов (период когорты)",
+        "description": "Характеристики использования Препаратов за период когорты"
       },
       "heraclesHeel": {
         "label": "Heracles Heel",
-        "description": "Data quality Achilles Heel results"
+        "description": "Результаты проверки качества данных Heracles Heel"
       }
     }
   },
