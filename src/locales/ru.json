@@ -3953,21 +3953,21 @@
   },
   "reusables": {
     "title": "Сниппеты",
-    "loading": "Загрузка сниппетов...",
+    "loading": "Загрузка сниппетов…",
     "manager": {
-      "loading": "Загрузка...",
-      "caption": "Сниппет #<%=id%>",
-      "captionVersion": "Сниппет #<%=id%> - Предварительный просмотр версии <%=number%>",
+      "loading": "Загрузка сниппета…",
+      "caption": "Сниппет №<%=id%>",
+      "captionVersion": "Сниппет №<%=id%> — предпросмотр версии <%=number%>",
       "design": {
-        "description": "<b>Сниппет</b> это ...",
-        "descriptionPlaceholder": "Онисание сниппета"
+        "description": "<b>Сниппет</b> — …",
+        "descriptionPlaceholder": "Введите описание сниппета"
       },
       "messages": {
-        "alreadyExists": "Сниппет с таким именем уже существует. Пожалуйста, выберите другое имя.",
-        "beforeClose": "Ваши изменения не сохранены. Продолжить?",
-        "deleteConfirmation": "Удаление Сниппета нельзя будет отменить! Вы уверены?",
-        "saveFailed": "При сохранении сниппета произошла ошибка.",
-        "notfound": "Сниппет с id = %d не найден"
+        "alreadyExists": "Сниппет с таким названием уже существует. Выберите другое название.",
+        "beforeClose": "Изменения не сохранены. Продолжить?",
+        "deleteConfirmation": "Удалить сниппет? Это действие нельзя отменить.",
+        "saveFailed": "Не удалось сохранить сниппет.",
+        "notfound": "Сниппет с ID = %d не найден."
       },
       "tabs": {
         "design": "Дизайн",
@@ -3977,35 +3977,35 @@
   },
   "tagging": {
     "tabs": {
-      "multiAssign": "Множественное назначие"
+      "multiAssign": "Массовое назначение"
     },
     "multiAssign": {
-      "selectedTags": "Теги",
-      "selectedAssets": "Ассеты",
-      "chooseTags": "Выбор тегов",
-      "chooseAssets": "Выбор ассетов",
+      "selectedTags": "Выбранные теги",
+      "selectedAssets": "Выбранные объекты",
+      "chooseTags": "Выбрать теги",
+      "chooseAssets": "Выбрать объекты",
       "assignTags": "Назначить теги",
       "unassignTags": "Снять теги",
-      "messageGroupNotMultiple": "Из группы '<%=group%>' можно назначить только один тег. Тег '<%=replacedName%>' заменен на '<%=replacedWithName%>'",
+      "messageGroupNotMultiple": "В группе «<%=group%>» нельзя назначить несколько тегов. Тег «<%=replacedName%>» заменён тегом «<%=replacedWithName%>».",
       "success": "Успешно!",
       "error": "Ошибка!",
-      "forbiddenError": "Действие запрещено!",
+      "forbiddenError": "Доступ запрещён!",
       "tabs": {
         "conceptsets": "Наборы концептов",
         "cohorts": "Когорты",
         "characterizations": "Характеризации",
-        "incidenceRates": "Инцидентность",
-        "cohortPathways": "Исходы Когорты",
+        "incidenceRates": "Анализы заболеваемости",
+        "cohortPathways": "Траектории когорт",
         "reusables": "Сниппеты"
       }
     }
   },
   "jobs": {
-    "noAccess": "You don't have access to the jobs panel.",
-    "refreshJobs": "Обновить список",
-    "title": "Jobs",
-    "close": "Close jobs panel",
-    "openPanel": "Open jobs panel"
+    "noAccess": "У вас нет доступа к панели заданий.",
+    "refreshJobs": "Обновить задания",
+    "title": "Задания",
+    "close": "Закрыть панель заданий",
+    "openPanel": "Открыть панель заданий"
   },
   "configuration": {
     "alerts": {
@@ -6473,7 +6473,7 @@
       "eyebrowNew": "НОВАЯ",
       "eyebrowCohort": "КОГОРТА",
       "countSingular": "1 когорта",
-      "countPlural": "Когорт: {count}"
+      "countPlural": "{count} когорт"
     },
     "characterizationBuilder": {
       "importInputAria": "Импортировать дизайн характеризации"
@@ -6490,16 +6490,16 @@
       "eyebrow": "ПРОФИЛЬ"
     },
     "incidenceRates": {
-      "copied": "Частота случаев скопирована",
-      "copyFailed": "Не удалось скопировать",
-      "deleted": "Частота случаев удалена",
-      "deleteFailed": "Не удалось удалить"
+      "copied": "Уровень заболеваемости скопирован.",
+      "copyFailed": "Не удалось скопировать.",
+      "deleted": "Уровень заболеваемости удалён.",
+      "deleteFailed": "Не удалось удалить."
     },
     "pathways": {
-      "copied": "Путь скопирован",
-      "copyFailed": "Не удалось скопировать",
-      "deleted": "Путь удалён",
-      "deleteFailed": "Не удалось удалить"
+      "copied": "Траектория скопирована.",
+      "copyFailed": "Не удалось скопировать.",
+      "deleted": "Траектория удалена.",
+      "deleteFailed": "Не удалось удалить."
     },
     "roleDetails": {
       "roleNotFound": "Роль не найдена",
@@ -6511,44 +6511,44 @@
     }
   },
   "trexsql": {
-    "cacheReady": "Ready",
-    "cacheStale": "Stale",
-    "cacheBuilding": "Building",
-    "cacheError": "Error",
-    "cacheNotBuilt": "Not Built",
-    "selectDataset": "Select dataset",
-    "patients": "patients",
-    "selectDatasetPrompt": "Select a dataset to view patient count",
-    "staleCacheWarning": "Cache may be stale",
-    "lastBuilt": "Last built",
-    "built": "Built",
-    "update": "Update",
-    "addCriteria": "Add criteria to see patient count",
-    "cacheFilesTitle": "Cache files on disk",
-    "cacheFilesDescription": "Every cache on disk, including caches whose dataset has been deleted. Those are no longer reachable from the dataset list and can be reclaimed here.",
-    "cacheFilesCount": "files",
-    "cacheFilesOrphaned": "orphaned",
-    "cacheFileName": "Cache",
-    "cacheFileSize": "Size",
-    "cacheFileModified": "Last modified",
-    "cacheFileProtected": "System",
-    "cacheFileOrphaned": "No dataset",
-    "cacheFileAttached": "Attached",
-    "cacheFilesEmpty": "No cache files found.",
-    "cacheFileDeleteTitle": "Delete cache?",
-    "cacheFileDeleteOrphan": "No dataset references this cache. Deleting it frees the space and cannot be undone.",
-    "cacheFileDeleteActive": "This cache belongs to a dataset that is still registered. It will have to be rebuilt before that dataset can be queried again.",
-    "cacheTitle": "Patient Cache",
-    "cacheDescription": "Build and manage patient caches for fast cohort counting. Each data source can have its own cache.",
-    "rebuild": "Rebuild",
-    "build": "Build Cache",
-    "building": "Building...",
-    "noDataSources": "No data sources available",
-    "statusReady": "Ready",
-    "statusBuilding": "Building",
-    "statusStale": "Stale",
-    "statusError": "Error",
-    "statusNotBuilt": "Not Built"
+    "cacheReady": "Готов",
+    "cacheStale": "Устарел",
+    "cacheBuilding": "Выполняется построение",
+    "cacheError": "Ошибка",
+    "cacheNotBuilt": "Не построен",
+    "selectDataset": "Выберите датасет",
+    "patients": "пациентов",
+    "selectDatasetPrompt": "Выберите датасет, чтобы увидеть число пациентов.",
+    "staleCacheWarning": "Кэш может быть устаревшим",
+    "lastBuilt": "Последнее построение",
+    "built": "Построен",
+    "update": "Обновить",
+    "addCriteria": "Добавьте критерии, чтобы увидеть число пациентов.",
+    "cacheFilesTitle": "Файлы кэша на диске",
+    "cacheFilesDescription": "Здесь перечислены все кэши на диске, в том числе кэши датасетов, которые были удалены. Такие кэши больше не отображаются в списке датасетов; здесь их можно удалить и освободить место.",
+    "cacheFilesCount": "файлов",
+    "cacheFilesOrphaned": "без датасета",
+    "cacheFileName": "Кэш",
+    "cacheFileSize": "Размер",
+    "cacheFileModified": "Последнее изменение",
+    "cacheFileProtected": "Системный",
+    "cacheFileOrphaned": "Без датасета",
+    "cacheFileAttached": "Привязан",
+    "cacheFilesEmpty": "Файлы кэша не найдены.",
+    "cacheFileDeleteTitle": "Удалить кэш?",
+    "cacheFileDeleteOrphan": "На этот кэш не ссылается ни один датасет. Удаление освободит место и не может быть отменено.",
+    "cacheFileDeleteActive": "Этот кэш принадлежит зарегистрированному датасету. Перед повторным выполнением запросов к этому датасету кэш потребуется построить заново.",
+    "cacheTitle": "Кэш пациентов",
+    "cacheDescription": "Создавайте кэши пациентов и управляйте ими, чтобы быстро подсчитывать пациентов в когортах. Для каждого источника данных можно создать отдельный кэш.",
+    "rebuild": "Перестроить",
+    "build": "Построить кэш",
+    "building": "Выполняется построение…",
+    "noDataSources": "Нет доступных источников данных",
+    "statusReady": "Готов",
+    "statusBuilding": "Выполняется построение",
+    "statusStale": "Устарел",
+    "statusError": "Ошибка",
+    "statusNotBuilt": "Не построен"
   },
   "help": {
     "dateAdjustmentExplanation": "Shifts criterion event dates by the specified offset. For example, \"Start Date + 30 days\" means the event start date will be 30 days after the original start date."
@@ -6586,7 +6586,7 @@
     "allowRepeats": "Разрешить повторы"
   },
   "analysis": {
-    "subtitle": "Characterize cohorts, build features, trace pathways, and compute incidence rates."
+    "subtitle": "Характеризуйте когорты, формируйте признаки, прослеживайте траектории и рассчитывайте уровни заболеваемости."
   },
   "pathwayDefinitions": {
     "deleteConfirm": "Удалить эту траекторию? Это действие нельзя отменить."
