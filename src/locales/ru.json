@@ -4009,102 +4009,102 @@
   },
   "configuration": {
     "alerts": {
-      "clearLocalCache": "Локальное хранилище очищено. Пожалуйста, перезагрузите страницу, чтобы обновитьинформацию о конфигурации.",
-      "clearServerCache": "Серверный кэш очищен",
-      "failUpdatePrioritySourceDaimon": "Не удалось обновить демона приоритета источника"
+      "clearLocalCache": "Локальное хранилище очищено. Обновите страницу, чтобы загрузить сведения о конфигурации заново.",
+      "clearServerCache": "Кэш сервера очищен.",
+      "failUpdatePrioritySourceDaimon": "Не удалось обновить схему БД с наивысшим приоритетом."
     },
     "buttons": {
-      "check": "Проверка",
+      "check": "Проверить",
       "refresh": "Обновить",
       "clearConfigurationCache": "Очистить кэш конфигурации",
-      "clearServerCache": "Очистить серверный кэш",
-      "importUsers": "Импорт пользователей из LDAP/AD",
+      "clearServerCache": "Очистить кэш сервера",
+      "importUsers": "Импортировать пользователей из LDAP/AD",
       "managePermissions": "Управление разрешениями",
       "tagManagement": "Управление тегами"
     },
-    "changeSourcePriorities": "Менять приоритеты источника:",
+    "changeSourcePriorities": "Изменить приоритеты источников данных в:",
     "confirms": {
-      "clearServerCache": "Вы действительно хотите очистить серверный кэш?"
+      "clearServerCache": "Очистить кэш сервера?"
     },
     "jobs": {
-      "title": "Job Execution Overview",
+      "title": "Обзор запусков заданий",
       "filters": {
-        "all": "All",
-        "running": "Running",
-        "completed": "Completed",
-        "failed": "Failed"
+        "all": "Все",
+        "running": "Выполняются",
+        "completed": "Завершены",
+        "failed": "Завершились с ошибкой"
       },
       "columns": {
-        "executionId": "Execution ID",
-        "type": "Type",
-        "author": "Author",
-        "startTime": "Start Time"
+        "executionId": "ID запуска",
+        "type": "Тип",
+        "author": "Автор",
+        "startTime": "Время начала"
       },
       "actions": {
-        "startPolling": "Start auto-refresh",
-        "stopPolling": "Stop auto-refresh",
-        "retry": "Retry"
+        "startPolling": "Включить автообновление",
+        "stopPolling": "Отключить автообновление",
+        "retry": "Повторить"
       },
       "empty": {
-        "title": "No Jobs Found",
-        "description": "Job executions will appear here once they are started."
+        "title": "Задания не найдены",
+        "description": "Запуски заданий появятся здесь после их начала."
       },
-      "lastUpdated": "Last updated",
-      "autoRefreshOn": "Auto-refresh on"
+      "lastUpdated": "Последнее обновление",
+      "autoRefreshOn": "Автообновление включено"
     },
-    "executionEngine": "Движок генерации",
+    "executionEngine": "Средство выполнения",
     "newSource": "Новый источник",
     "priorityOptions": {
-      "application": "Во всем приложении",
+      "application": "Во всём приложении",
       "session": "В текущей сессии"
     },
     "roles": {
-      "importRoles": "Импорт ролей",
-      "nameIsEmpty": "Имя не может быть пустым.",
+      "importRoles": "Импортировать роли",
+      "nameIsEmpty": "Название роли не указано.",
       "newRole": "Новая роль",
-      "roleTitle": "Роль <%=id%>",
+      "roleTitle": "Роль №<%=id%>",
       "tabs": {
         "permissions": "Разрешения",
         "users": "Пользователи",
-        "utilities": "Утилиты"
+        "utilities": "Инструменты"
       },
       "title": "Роли"
     },
     "rolesImport": {
-      "alertDanger": "Некоторые разрешения и пользователи в списке недоступны в этом экземпляре Atlas. Эти элементы будут отфильтрованы перед импортом.",
-      "alertWarning": "Некоторые из разрешений в списке содержат идентификаторы сущностей, которые не гарантируют совпадение между исходным и целевым экземплярами Atlas.",
-      "emptyMessage": "Вставьте в текстовое поле JSON, содержащий определения ролей",
+      "alertDanger": "Некоторые разрешения и пользователи из списка недоступны в этом экземпляре ATLAS. Перед импортом эти элементы будут отфильтрованы.",
+      "alertWarning": "Некоторые разрешения в списке содержат ID объектов, которые могут различаться в исходном и целевом экземплярах ATLAS.",
+      "emptyMessage": "Вставьте в текстовое поле JSON с определениями ролей.",
       "fixJson": "Исправить JSON",
-      "processed": "Обработано <%=proc%> из <%=len%> ролей.",
+      "processed": "Создано <%=proc> of <%=len%> ролей.",
       "removeThePermissions": "Удалить разрешения",
-      "rolesDefinitionJson": "JSON с определением ролей",
+      "rolesDefinitionJson": "JSON с определениями ролей",
       "title": "Импорт ролей"
     },
     "title": "Конфигурация",
     "userImport": {
       "findGroup": "Найти группу",
       "importNow": "Импортировать",
-      "loadingHistory": "Загрузка истории заданий импорта...",
-      "loadingUserImportJobList": "Загрузка списка заданий импорта...",
-      "newScheduledImport": "Импорт по расписанию",
+      "loadingHistory": "Загрузка истории запусков импорта пользователей…",
+      "loadingUserImportJobList": "Загрузка списка заданий импорта пользователей…",
+      "newScheduledImport": "Создать импорт по расписанию",
       "scheduler": {
-        "after": "После выполнений",
+        "after": "После",
         "enabled": "Включено",
         "ends": "Окончание",
         "execute": "Выполнять:",
-        "executions": "Исследования",
+        "executions": "запусков",
         "never": "Никогда",
-        "on": "До даты",
+        "on": "В дату",
         "preserveAssignedRoles": "Сохранять назначенные роли",
-        "repeat": "Повторить:",
+        "repeat": "Повторять:",
         "schedule": "Расписание",
-        "startOn": "Дата запуска:"
+        "startOn": "Начать:"
       },
-      "searchGroup": "Поиск группы",
-      "searchGroupPlaceholder": "Поиск...",
+      "searchGroup": "Найти группу:",
+      "searchGroupPlaceholder": "Поиск…",
       "tabs": {
         "jobHistory": "История заданий",
-        "roleMapping": "Назначение соответствий ролей",
+        "roleMapping": "Сопоставление ролей",
         "scheduler": "Планировщик"
       },
       "title": "Импорт пользователей из LDAP/Active Directory",
@@ -4116,41 +4116,41 @@
           "startImport": "Начать импорт"
         },
         "editRoles": {
-          "title": "Редактирование ролей"
+          "title": "Редактировать роли"
         },
         "finalPage": {
-          "message": "Импорт пользователей завершен."
+          "message": "Импорт пользователей завершён."
         },
         "help": {
           "adLdapUsername": "Имя пользователя AD/LDAP",
-          "adLdapUsernameText": "Этополе соответствует полю LDAP/AD <b>Display Name</b>.",
-          "atlasLogin": "Логин Атлас",
-          "atlasLoginText": "Это поле напрямую соответствует полю LDAP/AD <b>login</b> и будет использовано в качестве логина для входа в Атлас."
+          "adLdapUsernameText": "Это поле заполняется из поля <b>Display Name</b> в LDAP/AD.",
+          "atlasLogin": "Логин ATLAS",
+          "atlasLoginText": "Это поле напрямую заполняется из поля <b>login</b> в LDAP/AD и используется для входа в ATLAS."
         },
         "import": {
           "buttons": {
-            "checkAll": "Выбрать все",
-            "uncheckAll": "Снять выбор"
+            "checkAll": "Выбрать всех",
+            "uncheckAll": "Снять выделение со всех"
           },
-          "header": "Пожалуйста, выберите пользователей для импорта"
+          "header": "Выберите пользователей для импорта."
         },
         "roleMapping": {
-          "header": "При необходимости предоставьте сопоставление групп LDAP / Active Directory ролям Atlas."
+          "header": "При необходимости сопоставьте группы LDAP/Active Directory с ролями ATLAS."
         },
         "selectSource": {
           "buttons": {
-            "details": "Детали",
-            "testConnection": "Тест соединения"
+            "details": "Сведения",
+            "testConnection": "Проверить соединение"
           },
-          "header": "Пожалуйста, выберите провайдера для импорта пользователей.",
+          "header": "Выберите источник, из которого нужно импортировать пользователей.",
           "source": {
             "activeDirectory": "Active Directory",
-            "ldap": "LDAP сервер"
+            "ldap": "Сервер LDAP"
           }
         },
         "provider": {
           "connection": {
-            "failed": "Ошибка проверки соединения. Пожалуйста, смотрите подробности в логах сервера."
+            "failed": "Не удалось установить соединение. Подробности см. в журналах сервера."
           }
         },
         "title": "Импорт пользователей"
@@ -4164,7 +4164,7 @@
           }
         },
         "password": {
-          "label": "Файл-ключ сервисного аккаунта (OAuthPvtKeyPath)"
+          "label": "Файл ключа сервисного аккаунта (OAuthPvtKeyPath)"
         }
       },
       "connectionString": {
@@ -4183,7 +4183,7 @@
           "pdw": "Microsoft PDW",
           "postgresql": "PostgreSQL",
           "redshift": "Amazon Redshift",
-          "sqlserver": "SQL server",
+          "sqlserver": "SQL Server",
           "synapse": "Azure Synapse",
           "snowflake": "Snowflake",
           "spark": "Apache Spark"
@@ -4205,10 +4205,10 @@
         "hostFqdn": {
           "label": "KrbHostFQDN:",
           "placeholder": "KrbHostFQDN",
-          "title": "KrbHostFQDN взят из JDBC-строки подключения"
+          "title": "KrbHostFQDN получен из строки подключения JDBC"
         },
         "keytab": {
-          "label": "Keytab"
+          "label": "Файл Keytab"
         },
         "password": {
           "label": "Пароль:",
@@ -4217,18 +4217,18 @@
         },
         "realm": {
           "label": "KrbRealm:",
-          "placeholder": "KrbAdminServer",
-          "title": "KrbRealm взят из JDBC-строки подключения"
+          "placeholder": "KrbRealm",
+          "title": "KrbRealm получен из строки подключения JDBC"
         },
         "sourceDaimons": {
-          "label": "Даймоны источника"
+          "label": "Схемы БД источника"
         },
         "userPassword": {
           "label": "Имя пользователя и пароль"
         },
         "validation": {
-          "host": "\"KrbHostFQDN\" is empty. Please specify it in the following format: \"KrbHostFQDN=[value];\"",
-          "realm": "\"KrbRealm\" is empty. Please specify it in the following format: \"KrbRealm=[value];\""
+          "host": "&quot;KrbHostFQDN&quot; не задан. Укажите его в формате &quot;KrbHostFQDN=[value];&quot;",
+          "realm": "&quot;KrbRealm&quot; не задан. Укажите его в формате &quot;KrbRealm=[value];&quot;"
         }
       },
       "password": {
@@ -4239,17 +4239,17 @@
       "source": {
         "alerts": {
           "save": {
-            "error": "Источник не сохранен. <%= message %>",
-            "errorMessage": "Пожалуйста, свяжитесь с администратором, чтобы решить эту проблему."
+            "error": "Источник данных не сохранён. <%= message %>",
+            "errorMessage": "Обратитесь к администратору, чтобы решить эту проблему."
           },
           "delete": {
-            "hasSelectedPriotirizableDaimons": "Некоторые даймоны этого источника получили наивысший приоритет и используются приложением. Выберите новые первоочередные даймоны, чтобы удалить источник."
+            "hasSelectedPriotirizableDaimons": "Некоторые схемы БД этого источника имеют наивысший приоритет и используются приложением. Чтобы удалить источник, сначала назначьте наивысший приоритет другим схемам БД."
           },
-          "sourceSelectedError": "При выборе источника с d=<%=selectedSourceId%> произошла ошибка."
+          "sourceSelectedError": "Не удалось получить источник с ID = <%=selectedSourceId%>."
         },
         "confirms": {
-          "close": "Изменения не сохранены. Действительно продолжить?",
-          "delete": "Удалить источник? Это действие необратимо!"
+          "close": "Изменения источника не сохранены. Продолжить?",
+          "delete": "Удалить источник данных? Это действие нельзя отменить."
         },
         "label": "Ключ источника:",
         "new": {
@@ -4258,15 +4258,15 @@
         "placeholder": "Ключ источника",
         "title": "Источник <%=name%>",
         "validation": {
-          "empty": "Имя источника не может быть пустым"
+          "empty": "Название источника не указано."
         }
       },
       "username": {
-        "label": "Пользователь:",
-        "placeholder": "Пользователь",
-        "title": "Пользователь",
+        "label": "Имя пользователя:",
+        "placeholder": "Имя пользователя",
+        "title": "Имя пользователя",
         "validation": {
-          "empty": "Поле \"Пользователь\" не может быть пустым."
+          "empty": "Поле &quot;Имя пользователя&quot; не заполнено."
         }
       }
     },
@@ -6167,195 +6167,195 @@
     }
   },
   "config": {
-    "title": "Configuration",
+    "title": "Конфигурация",
     "panel": {
-      "title": "Configuration Panel",
-      "close": "Close configuration panel"
+      "title": "Панель конфигурации",
+      "close": "Закрыть панель конфигурации"
     },
     "sections": {
-      "cache": "Cache Management",
-      "vocabulary": "Vocabulary Schema",
-      "tags": "Tag Management",
-      "jobs": "Jobs"
+      "cache": "Управление кэшем",
+      "vocabulary": "Схема словаря",
+      "tags": "Управление тегами",
+      "jobs": "Задания"
     },
     "cache": {
-      "title": "Cache Management",
-      "description": "Manage cached configuration data to troubleshoot loading issues or clear stale data.",
-      "clearButton": "Clear Configuration Cache",
-      "confirmTitle": "Clear Configuration Cache",
-      "confirmMessage": "Are you sure you want to clear the configuration cache? This will remove all cached data and may temporarily slow down the application.",
-      "success": "Configuration cache cleared successfully",
-      "error": "Failed to clear configuration cache",
+      "title": "Управление кэшем",
+      "description": "Управляйте кэшированными данными конфигурации, чтобы устранять проблемы загрузки или удалять устаревшие данные.",
+      "clearButton": "Очистить кэш конфигурации",
+      "confirmTitle": "Очистить кэш конфигурации",
+      "confirmMessage": "Очистить кэш конфигурации? Все кэшированные данные будут удалены, и работа приложения может временно замедлиться.",
+      "success": "Кэш конфигурации очищен.",
+      "error": "Не удалось очистить кэш конфигурации.",
       "stats": {
-        "title": "Cache Statistics",
-        "itemCount": "Cached Items",
-        "estimatedSize": "Estimated Size"
+        "title": "Статистика кэша",
+        "itemCount": "Элементов в кэше",
+        "estimatedSize": "Расчётный размер"
       }
     },
     "vocabulary": {
-      "title": "Vocabulary Schema",
-      "description": "Configure the database schema where vocabulary tables are located.",
-      "label": "Schema Name",
-      "hint": "Database schema containing vocabulary tables (e.g., public, cdm_vocab)",
-      "placeholder": "Enter schema name",
-      "success": "Vocabulary schema updated",
-      "error": "Failed to update vocabulary schema",
-      "undo": "Undo",
+      "title": "Схема БД словаря",
+      "description": "Настройте схему БД, в которой находятся таблицы словаря.",
+      "label": "Название схемы БД",
+      "hint": "Схема БД с таблицами словаря (например, public, cdm_vocab)",
+      "placeholder": "Введите название схемы БД",
+      "success": "Схема БД словаря обновлена.",
+      "error": "Не удалось обновить схему БД словаря.",
+      "undo": "Отменить",
       "validation": {
-        "required": "Schema name is required",
-        "invalidFormat": "Schema name must start with a letter or underscore",
-        "invalidChars": "Schema name can only contain letters, numbers, and underscores",
-        "tooLong": "Schema name must be 63 characters or less"
+        "required": "Необходимо указать название схемы БД.",
+        "invalidFormat": "Название схемы БД должно начинаться с буквы или знака подчёркивания.",
+        "invalidChars": "Название схемы БД может содержать только буквы, цифры и знаки подчёркивания.",
+        "tooLong": "Название схемы БД не должно превышать 63 символа."
       }
     },
     "tags": {
-      "title": "Tag Management",
-      "description": "Create and manage tag groups for organizing cohorts and concept sets.",
-      "createButton": "Create Tag Group",
+      "title": "Управление тегами",
+      "description": "Создавайте группы тегов и управляйте ими, чтобы упорядочивать когорты и наборы концептов.",
+      "createButton": "Создать группу тегов",
       "table": {
         "headers": {
-          "name": "Name",
-          "color": "Color",
-          "icon": "Icon",
-          "mandatory": "Mandatory",
-          "showColumn": "Show Column",
-          "multiple": "Multiple",
-          "freeForm": "Free-form",
-          "created": "Created",
-          "author": "Author",
-          "description": "Description",
-          "actions": "Actions"
+          "name": "Название",
+          "color": "Цвет",
+          "icon": "Значок",
+          "mandatory": "Обязательная",
+          "showColumn": "Показывать столбец",
+          "multiple": "Несколько тегов",
+          "freeForm": "Произвольные теги",
+          "created": "Создано",
+          "author": "Автор",
+          "description": "Описание",
+          "actions": "Действия"
         },
-        "empty": "No tag groups found",
-        "loading": "Loading tag groups..."
+        "empty": "Группы тегов не найдены.",
+        "loading": "Загрузка групп тегов…"
       },
       "dialog": {
-        "createTitle": "Create Tag Group",
-        "editTitle": "Edit Tag Group",
+        "createTitle": "Создать группу тегов",
+        "editTitle": "Редактировать группу тегов",
         "fields": {
           "name": {
-            "label": "Name",
-            "hint": "Descriptive name for this tag group",
-            "required": "Name is required"
+            "label": "Название",
+            "hint": "Понятное название группы тегов",
+            "required": "Необходимо указать название."
           },
           "color": {
-            "label": "Color",
-            "hint": "Color swatch for visual identification"
+            "label": "Цвет",
+            "hint": "Цвет для визуального распознавания"
           },
           "icon": {
-            "label": "Icon",
-            "hint": "Material Design Icon name (e.g., mdi-tag)",
+            "label": "Значок",
+            "hint": "Название значка Material Design (например, mdi-tag)",
             "placeholder": "mdi-tag"
           },
           "description": {
-            "label": "Description",
-            "hint": "Optional description of this tag group's purpose"
+            "label": "Описание",
+            "hint": "Необязательное описание назначения группы тегов"
           },
           "mandatory": {
-            "label": "Mandatory",
-            "hint": "Tags from this group are required on all assets"
+            "label": "Обязательная",
+            "hint": "Для всех объектов обязательно должны быть назначены теги из этой группы."
           },
           "showColumn": {
-            "label": "Show as Column",
-            "hint": "Display as a column in asset tables"
+            "label": "Показывать как столбец",
+            "hint": "Отображать столбцом в таблицах объектов."
           },
           "multiple": {
-            "label": "Allow Multiple",
-            "hint": "Allow multiple tags from this group per asset"
+            "label": "Разрешить несколько",
+            "hint": "Разрешить назначать объекту несколько тегов из этой группы."
           },
           "freeForm": {
-            "label": "Free-form",
-            "hint": "Allow users to create custom tags in this group"
+            "label": "Произвольные теги",
+            "hint": "Разрешить пользователям создавать собственные теги в этой группе."
           }
         },
         "actions": {
-          "save": "Save",
-          "create": "Create",
-          "cancel": "Cancel"
+          "save": "Сохранить",
+          "create": "Создать",
+          "cancel": "Отмена"
         }
       },
       "delete": {
-        "confirmTitle": "Delete Tag Group",
-        "confirmMessage": "Are you sure you want to delete \"%{name}\"?",
-        "success": "Tag group deleted successfully",
-        "error": "Failed to delete tag group",
-        "errorNonEmpty": "Cannot delete tag group: the group contains tags. Please delete all tags first.",
-        "undo": "Undo"
+        "confirmTitle": "Удалить группу тегов",
+        "confirmMessage": "Удалить группу «%{name}»?",
+        "success": "Группа тегов удалена.",
+        "error": "Не удалось удалить группу тегов.",
+        "errorNonEmpty": "Не удалось удалить группу тегов: в ней ещё есть теги. Сначала удалите все теги.",
+        "undo": "Отменить"
       },
       "create": {
-        "success": "Tag group created successfully",
-        "error": "Failed to create tag group",
-        "undo": "Undo"
+        "success": "Группа тегов создана.",
+        "error": "Не удалось создать группу тегов.",
+        "undo": "Отменить"
       },
       "update": {
-        "success": "Tag group updated successfully",
-        "error": "Failed to update tag group",
-        "undo": "Undo"
+        "success": "Группа тегов обновлена.",
+        "error": "Не удалось обновить группу тегов.",
+        "undo": "Отменить"
       }
     },
     "datasources": {
-      "title": "Data Sources",
-      "add": "Add Data Source",
-      "edit": "Edit Data Source",
-      "delete": "Delete",
-      "deleteConfirm": "Are you sure you want to delete this data source? This action cannot be undone.",
-      "basicInfo": "Basic Information",
-      "connection": "Connection",
-      "name": "Source Name",
-      "key": "Source Key",
-      "keyReadonly": "Key cannot be changed after creation",
-      "keyInvalid": "Key must contain only letters, numbers, hyphens, and underscores",
-      "dialect": "Dialect",
-      "connectionString": "Connection String",
-      "username": "Username",
-      "password": "Password",
-      "vocabulary": "Vocabulary",
-      "evidence": "Evidence",
-      "results": "Results",
-      "actions": "Actions",
-      "kerberos": "Kerberos Authentication",
-      "krbAuthMethod": "Authentication Method",
+      "title": "Источники данных",
+      "add": "Добавить источник данных",
+      "edit": "Редактировать источник данных",
+      "delete": "Удалить",
+      "deleteConfirm": "Удалить этот источник данных? Это действие нельзя отменить.",
+      "basicInfo": "Основные сведения",
+      "connection": "Подключение",
+      "name": "Название источника",
+      "key": "Ключ источника",
+      "keyReadonly": "После создания ключ нельзя изменить.",
+      "keyInvalid": "Ключ может содержать только буквы, цифры, дефисы и знаки подчёркивания.",
+      "dialect": "Диалект",
+      "connectionString": "Строка подключения",
+      "username": "Имя пользователя",
+      "password": "Пароль",
+      "vocabulary": "Словарь",
+      "evidence": "Доказательства",
+      "results": "Результаты",
+      "actions": "Действия",
+      "kerberos": "Аутентификация Kerberos",
+      "krbAuthMethod": "Метод аутентификации",
       "krbKeytab": "Keytab",
-      "krbPassword": "Password",
-      "krbAdminServer": "Admin Server",
-      "keytabFile": "Keytab File",
-      "bigqueryAuth": "BigQuery Authentication",
-      "serviceAccountKey": "Service Account Key File",
-      "existingKeyfile": "Current file: {name}",
-      "daimons": "Schema Configuration (Daimons)",
-      "daimonType": "Type",
-      "daimonEnabled": "Enabled",
-      "daimonSchema": "Schema",
-      "schemaPlaceholder": "Enter schema name",
-      "testConnection": "Test connection on save",
-      "checkConnection": "Check Connection",
-      "refreshCache": "Refresh Cache",
-      "createSuccess": "Data source created successfully",
-      "updateSuccess": "Data source updated successfully",
-      "deleteSuccess": "Data source deleted successfully",
-      "error": "Operation failed",
-      "connectionSuccess": "Connection to {name} successful",
-      "connectionFailed": "Failed to connect to {name}",
-      "cacheRefreshStarted": "Cache refresh started for {name}",
-      "cacheRefreshFailed": "Failed to refresh cache for {name}",
-      "localCacheCleared": "Local cache cleared. Please refresh the page to reload configuration.",
-      "serverCacheCleared": "Server cache cleared successfully",
-      "serverCacheFailed": "Failed to clear server cache",
-      "clearServerCacheConfirm": "Are you sure you want to clear the server cache?",
-      "priorityScope": "Change source priorities in:",
-      "sessionScope": "Current Session",
-      "applicationScope": "Whole Application",
-      "noSources": "No data sources configured. Contact your administrator to add data sources."
+      "krbPassword": "Пароль",
+      "krbAdminServer": "Сервер администрирования",
+      "keytabFile": "Файл Keytab",
+      "bigqueryAuth": "Аутентификация BigQuery",
+      "serviceAccountKey": "Файл ключа сервисного аккаунта",
+      "existingKeyfile": "Текущий файл: {name}",
+      "daimons": "Конфигурация схем БД",
+      "daimonType": "Тип",
+      "daimonEnabled": "Включено",
+      "daimonSchema": "Схема БД",
+      "schemaPlaceholder": "Введите название схемы БД",
+      "testConnection": "Проверять соединение при сохранении",
+      "checkConnection": "Проверить соединение",
+      "refreshCache": "Обновить кэш",
+      "createSuccess": "Источник данных создан.",
+      "updateSuccess": "Источник данных обновлён.",
+      "deleteSuccess": "Источник данных удалён.",
+      "error": "Не удалось выполнить операцию.",
+      "connectionSuccess": "Подключение к источнику «{name}» установлено.",
+      "connectionFailed": "Не удалось подключиться к источнику «{name}».",
+      "cacheRefreshStarted": "Обновление кэша источника «{name}» началось.",
+      "cacheRefreshFailed": "Не удалось обновить кэш источника «{name}».",
+      "localCacheCleared": "Локальный кэш очищен. Обновите страницу, чтобы загрузить конфигурацию заново.",
+      "serverCacheCleared": "Кэш сервера очищен.",
+      "serverCacheFailed": "Не удалось очистить кэш сервера.",
+      "clearServerCacheConfirm": "Очистить кэш сервера?",
+      "priorityScope": "Изменить приоритеты источников данных в:",
+      "sessionScope": "Текущей сессии",
+      "applicationScope": "Во всём приложении",
+      "noSources": "Источники данных не настроены. Обратитесь к администратору, чтобы добавить их."
     },
     "accessibility": {
-      "openPanel": "Open configuration panel",
-      "closePanel": "Close configuration panel",
-      "cacheSection": "Navigate to cache management section",
-      "vocabularySection": "Navigate to vocabulary schema section",
-      "tagsSection": "Navigate to tag management section",
-      "jobsSection": "Navigate to jobs overview section",
-      "editTagGroup": "Edit tag group %{name}",
-      "deleteTagGroup": "Delete tag group %{name}"
+      "openPanel": "Открыть панель конфигурации",
+      "closePanel": "Закрыть панель конфигурации",
+      "cacheSection": "Перейти к разделу управления кэшем",
+      "vocabularySection": "Перейти к разделу настройки схемы словаря",
+      "tagsSection": "Перейти к разделу управления тегами",
+      "jobsSection": "Перейти к разделу обзора заданий",
+      "editTagGroup": "Редактировать группу тегов «%{name}»",
+      "deleteTagGroup": "Удалить группу тегов «%{name}»"
     }
   },
   "versions": {
