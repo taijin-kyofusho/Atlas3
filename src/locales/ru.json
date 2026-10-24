@@ -5,30 +5,30 @@
     "logoHome": "Главная страница OHDSI ATLAS"
   },
   "cohortAgent": {
-    "title": "Pythia AI Agent",
-    "subtitle": "Cohort design advisor",
-    "send": "Send",
-    "streaming": "streaming…",
-    "stop": "Stop",
-    "history": "Chat history",
-    "newChat": "New chat",
-    "deleteChat": "Delete chat",
-    "clear": "Clear chat",
-    "inputPlaceholder": "Ask Pythia about your cohort…",
+    "title": "ИИ-агент Pythia",
+    "subtitle": "Помощник по разработке когорт",
+    "send": "Отправить",
+    "streaming": "Формирует ответ…",
+    "stop": "Остановить",
+    "history": "История чатов",
+    "newChat": "Новый чат",
+    "deleteChat": "Удалить чат",
+    "clear": "Очистить чат",
+    "inputPlaceholder": "Спросите Pythia о своей когорте…",
     "starters": {
-      "label": "Try a starter",
-      "t2dm": "Define a Type 2 Diabetes cohort",
-      "ckd": "What phenotype should I use for chronic kidney disease?",
-      "statins": "Add patients on statins over age 65",
-      "renal": "Exclude patients with renal failure"
+      "label": "Попробуйте пример",
+      "t2dm": "Сформировать когорту пациентов с сахарным диабетом 2-го типа",
+      "ckd": "Какой фенотип использовать для хронической болезни почек?",
+      "statins": "Добавить пациентов старше 65 лет, принимающих статины",
+      "renal": "Исключить пациентов с почечной недостаточностью"
     },
     "proposal": {
-      "accept": "Accept",
-      "reject": "Reject",
-      "added": "Added to cohort",
-      "applied": "Applied",
-      "rejected": "Rejected",
-      "includingDescendants": "Including descendant concepts"
+      "accept": "Принять",
+      "reject": "Отклонить",
+      "added": "Добавлено в когорту",
+      "applied": "Применено",
+      "rejected": "Отклонено",
+      "includingDescendants": "Включая концепты-потомки"
     }
   },
   "datatable": {
@@ -4313,14 +4313,14 @@
     }
   },
   "feedback": {
-    "pleaseContact": "Для доступа или вопросов, касающихся приложения Atlas, пожалуйста, свяжитесь с:",
+    "pleaseContact": "По вопросам доступа к приложению ATLAS и другим вопросам обращайтесь:",
     "title": "Обратная связь"
   },
   "licenseAgreement": {
     "accept": "Принять",
-    "description": "Чтобы использовать SNOMED International SNOMED CT Browser и HemOnc, примите следующее лицензионное соглашение:",
+    "description": "Чтобы использовать SNOMED CT Browser от SNOMED International и HemOnc, примите следующее лицензионное соглашение:",
     "reject": "Отказаться",
-    "rejectWarning": "Без принятия этих условий вы не сможете использовать Atlas",
+    "rejectWarning": "Без согласия с лицензией использовать ATLAS не получится.",
     "title": "Лицензионное соглашение"
   },
   "cohort": {
@@ -6551,7 +6551,7 @@
     "statusNotBuilt": "Не построен"
   },
   "help": {
-    "dateAdjustmentExplanation": "Shifts criterion event dates by the specified offset. For example, \"Start Date + 30 days\" means the event start date will be 30 days after the original start date."
+    "dateAdjustmentExplanation": "Сдвигает даты событий критерия на заданное смещение. Например, «Дата начала + 30 дней» означает, что дата начала события наступит на 30 дней позже исходной даты."
   },
   "pathway": {
     "results": {
